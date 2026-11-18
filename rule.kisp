@@ -1,307 +1,311 @@
 #kisp 2 model 2
 TABLE	meta	O/X	key	value
-meta	O	project.name	kiotty-spec
+meta	O	project.name	hansono_dicom
 TABLE	checkpoint	O/X	sequence	previous	step	state	created_at	description
-checkpoint	O	1	-	2	done	1794813096	CR-018 수칙 본문 상호 참조 제거
+checkpoint	O	1	-	2	done	1794981364	C-ABI 외부 인터페이스 2차 (c_abi_decisions_2)
 TABLE	item	O/X	key	id
-item	O	029979bf	RULE-044
-item	O	035b54aa	RULE-042
-item	O	04c783ea	RULE-073
-item	O	08fe2a2b	RULE-074
-item	O	1753b045	RULE-059
-item	O	17e806a6	RULE-025
-item	O	17ea5c8d	RULE-017
-item	O	237b3313	RULE-006
-item	O	240282ef	RULE-013
-item	O	253605c0	RULE-009
-item	O	291c4670	RULE-052
-item	O	2ca2fff6	RULE-008
-item	O	2fa1b0d6	RULE-067
-item	O	316c1a3c	RULE-060
-item	O	34c2abef	RULE-005
-item	O	36e5888d	RULE-026
-item	O	38cc8ca9	RULE-036
-item	O	39cf11b2	RULE-021
-item	O	39e854b0	RULE-007
-item	O	39ea3ebc	RULE-018
-item	O	42ad54c2	RULE-020
-item	O	44733d8a	RULE-029
-item	O	4611bb03	RULE-028
-item	O	48975878	RULE-012
-item	O	4a0c9ac5	RULE-027
-item	O	4b931850	RULE-039
-item	O	4c5d0ba1	RULE-066
-item	O	4c5e5e82	RULE-037
-item	O	4f46cf12	RULE-072
-item	O	54741482	RULE-050
-item	O	5af628cf	RULE-019
-item	O	5b0f1279	RULE-053
-item	O	5d87a07f	RULE-047
-item	O	5d9c30a3	RULE-016
-item	O	600c198b	RULE-058
-item	O	62b091a0	RULE-031
-item	O	637973a2	RULE-075
-item	O	7a7a76dd	RULE-048
-item	O	81639d02	RULE-034
-item	O	8492a76d	RULE-063
-item	O	8d1003b3	RULE-057
-item	O	8d630cfc	RULE-062
-item	O	90f6fa6c	RULE-051
-item	O	933cbc00	RULE-070
-item	O	959084d4	RULE-055
-item	O	969657b8	RULE-032
-item	O	975029f0	RULE-001
-item	O	9ae6446d	RULE-046
-item	O	a8fbd9e6	RULE-043
-item	O	a9827729	RULE-054
-item	O	ae6bdfec	RULE-056
-item	O	b0d2a761	RULE-024
-item	O	b19d9182	RULE-003
-item	O	ba195442	RULE-010
-item	O	bd204eb1	RULE-045
-item	O	c29acf52	RULE-011
-item	O	c39b1670	RULE-030
-item	O	c3f906cb	RULE-069
-item	O	cbb5a614	RULE-014
-item	O	cedc19ca	RULE-049
-item	O	d997f408	RULE-004
-item	O	dae00dde	RULE-061
-item	O	dc2a5ab3	RULE-068
-item	O	e2c79e79	RULE-033
-item	O	e667522e	RULE-065
-item	O	e972389a	RULE-064
-item	O	f0bea94a	RULE-022
-item	O	f0d0c47f	RULE-015
-item	O	f16dec83	RULE-040
-item	O	f1ed8d76	RULE-071
-item	O	f618c7f5	RULE-023
-item	O	f8a460e7	RULE-038
-item	O	fce0b76f	RULE-041
-item	O	ff150583	RULE-002
+item	O	066a434f	RULE-030
+item	O	08377d73	RULE-036
+item	O	0a688ef8	RULE-054
+item	O	0a7b0ad8	RULE-002
+item	O	0dc0db1f	RULE-042
+item	O	10d55412	RULE-048
+item	O	11668ff6	RULE-025
+item	O	12ce8746	RULE-050
+item	O	136bbb56	RULE-015
+item	O	137c59f4	RULE-003
+item	O	15bb95b2	RULE-074
+item	O	16b77c8f	RULE-039
+item	O	1b92b690	RULE-058
+item	O	1c8365d5	RULE-021
+item	O	1c8ea96d	RULE-076
+item	O	203f2357	RULE-069
+item	O	21373a2a	RULE-045
+item	O	22532d44	RULE-046
+item	O	23165054	RULE-073
+item	O	2540c12f	RULE-014
+item	O	286587c1	RULE-068
+item	O	2c53163c	RULE-057
+item	O	2d87a753	RULE-016
+item	O	32c3d72a	RULE-075
+item	O	379c7cab	RULE-049
+item	O	37d708bf	RULE-027
+item	O	394ac4f7	RULE-024
+item	O	3a5d2af6	RULE-011
+item	O	40baa5f2	RULE-034
+item	O	46068aa6	RULE-053
+item	O	469f2b6a	RULE-065
+item	O	49550d42	RULE-028
+item	O	4b7222e8	RULE-008
+item	O	4e5cf82a	RULE-033
+item	O	4f7c9294	RULE-005
+item	O	62b2137f	RULE-032
+item	O	639490cd	RULE-037
+item	O	639b7698	RULE-019
+item	O	66c2e112	RULE-060
+item	O	6a3526b2	RULE-010
+item	O	6bca51a0	RULE-062
+item	O	7421a185	RULE-012
+item	O	7538aea1	RULE-052
+item	O	78821542	RULE-044
+item	O	7f421b91	RULE-038
+item	O	824c94e9	RULE-041
+item	O	85f145f3	RULE-007
+item	O	872853d3	RULE-004
+item	O	8778fb0f	RULE-070
+item	O	89480364	RULE-013
+item	O	8c5d9c37	RULE-072
+item	O	90e9775e	RULE-047
+item	O	945321c7	RULE-056
+item	O	9517db7e	RULE-063
+item	O	9c2af7e1	RULE-018
+item	O	9df3b837	RULE-020
+item	O	a85736ad	RULE-022
+item	O	a97f639c	RULE-064
+item	O	ad0c7901	RULE-009
+item	O	b125445f	RULE-029
+item	O	b38ce056	RULE-061
+item	O	b5b50a5a	RULE-017
+item	O	b8f06ae8	RULE-055
+item	O	b8f486cb	RULE-043
+item	O	bdf0a775	RULE-066
+item	O	be632cd8	RULE-001
+item	O	ccdfaa19	RULE-040
+item	O	d6ab0451	RULE-059
+item	O	dab12ac9	RULE-051
+item	O	e28207fa	RULE-071
+item	O	e4c983ec	RULE-031
+item	O	f3129577	RULE-026
+item	O	f7bcf8ce	RULE-023
+item	O	f88bb73d	RULE-006
+item	O	f9f77177	RULE-067
 TABLE	item_version	O/X	key	checkpoint	kind	parent	title	summary	body
-item_version	O	029979bf	1	rule	969657b8	4.11 부정 조건을 피한다.	4.11 부정 조건을 피한다. if (!isEmpty()) 대신 if (hasItems()). 이중 부정 금지.	52812be755a87794
-item_version	O	035b54aa	1	rule	969657b8	4.9 읽는 순서 = 호출 순서.	4.9 읽는 순서 = 호출 순서. 상위 흐름 함수가 위, 보조 함수가 아래.	c9c313d7e1deada5
-item_version	O	04c783ea	1	rule	-	8. i18n		9cd6ecb10f15a021
-item_version	O	08fe2a2b	1	rule	-	9. 리뷰 체크리스트		12e7e83087b8894b
-item_version	O	1753b045	1	rule	-	6. 설계		3b8cfe84c784e226
-item_version	O	17e806a6	1	rule	-	3. 지역성		4ad4fd2921baf5c0
-item_version	O	17ea5c8d	1	rule	cbb5a614	2.3 금지 함수와 대체		3982553aa87d418f
-item_version	O	237b3313	1	rule	b19d9182	1.3 반복 생성·소멸되는 인스턴스는 풀에서 꺼내고, Handle 로만 접근한다.		efe0bd7a8d9fd1ae
-item_version	O	240282ef	1	rule	b19d9182	1.10 Raw pointer 는 쓰지 않는다.		a101099cf7c49237
-item_version	O	253605c0	1	rule	b19d9182	1.6 컨테이너는 core/ 의 고정 크기 컨테이너만 쓴다.		be57f300ef392b77
-item_version	O	291c4670	1	rule	-	5. 에러 처리		77199d626de6fdfa
-item_version	O	2ca2fff6	1	rule	b19d9182	1.5 대용량 데이터와 다른 Entity 참조는 Handle 로 보관한다.		57d8e7be6d777a62
-item_version	O	2fa1b0d6	1	rule	1753b045	6.8 외부와 주고받는 문자열은 UTF-8 이다.	6.8 외부와 주고받는 문자열은 UTF-8 이다. 다른 인코딩은 presentation 의 변환기에서 UTF-8 로 바꾼다.	9cf867734774d237
-item_version	O	316c1a3c	1	rule	1753b045	6.1 작업 순서는 타입으로 강제한다.	6.1 작업 순서는 타입으로 강제한다. A→B→C 는 A 의 출력 타입이 B 의 입력이다.	105b852597af546d
-item_version	O	34c2abef	1	rule	b19d9182	1.2 전역 Context 가 모든 인스턴스를 소유하고, 소멸자가 전부 해제한다.		067f2b1103276917
-item_version	O	36e5888d	1	rule	17e806a6	3.1 같은 시점에 함께 읽는 필드만 같은 struct 에 둔다.		098181f61bdaad07
-item_version	O	38cc8ca9	1	rule	969657b8	4.3 한 줄에 한 동작이다.	4.3 한 줄에 한 동작이다. 조건식 안에서 대입·호출을 하지 않는다. 선언·계산·호출을 한 줄에 섞지 않는다.	8f2f9815f744c3b3
-item_version	O	39cf11b2	1	rule	cbb5a614	2.7 민감 데이터(키, 토큰, 환자 식별자)는 쓰고 나서 secureZero 로 지운다.		fe91645ee77b6e86
-item_version	O	39e854b0	1	rule	b19d9182	1.4 Entity 는 값 객체다.	1.4 Entity 는 값 객체다. 포인터 없음, 고정 크기, 1024 바이트 이하.	0686afdb4c713b77
-item_version	O	39ea3ebc	1	rule	cbb5a614	2.4 정수는 범위를 검사한 뒤에 쓴다.		c7611c553679d258
-item_version	O	42ad54c2	1	rule	cbb5a614	2.6 외부 문자열은 null 종료를 가정하지 않는다.		0f7c709464cd1f89
-item_version	O	44733d8a	1	rule	17e806a6	3.4 멤버는 크기 내림차순으로 배치하고 static_assert(sizeof) 로 패딩을 고정한다.		d38935600e27c10a
-item_version	O	4611bb03	1	rule	17e806a6	3.3 순회는 index 순서로 풀 전체를 훑는다.		0f4c1a429e8adbc2
-item_version	O	48975878	1	rule	b19d9182	1.9 모든 변수는 선언과 동시에 {} 로 초기화한다.		d4934d9819e25b55
-item_version	O	4a0c9ac5	1	rule	17e806a6	3.2 포인터로 연결된 자료구조는 쓰지 않는다.	3.2 포인터로 연결된 자료구조는 쓰지 않는다. 배열 + index 로 만든다.	74393a711ace59f2
-item_version	O	4b931850	1	rule	969657b8	4.6 auto 는 우변에 타입이 보일 때(생성자 호출, Result 반환)만 쓴다.	4.6 auto 는 우변에 타입이 보일 때(생성자 호출, Result 반환)만 쓴다. 숫자·bool 은 타입을 적는다.	221040699431c056
-item_version	O	4c5d0ba1	1	rule	1753b045	6.7 크로스 플랫폼 클래스는 backend 헤더를 선택하고 Payload 멤버로 구현을 감춘다.		f8e651a11be24b2f
-item_version	O	4c5e5e82	1	rule	969657b8	4.4 이름		4e23cbfc965c4e98
-item_version	O	4f46cf12	1	rule	dc2a5ab3	7.4 core/ 는 범용 자료구조와 유틸만 둔다.		fc7209efb9933c5c
-item_version	O	54741482	1	rule	969657b8	4.17 method 는 그 개념이 할 수 있는 동작을 나타내는 짧은 동사로 쓴다.		64a43879b2d49889
-item_version	O	5af628cf	1	rule	cbb5a614	2.5 외부에는 포인터를 내보내지 않는다.	2.5 외부에는 포인터를 내보내지 않는다. 외부는 Context 와 Handle 만 가진다.	db2ba193cd4cdb32
-item_version	O	5b0f1279	1	rule	291c4670	5.1 에러는 Result<Value, Code> 리턴값으로만 전달한다.	5.1 에러는 Result<Value, Code> 리턴값으로만 전달한다. 예외, errno, 전역 상태는 쓰지 않는다.	a0ebd6b3cdbccc7f
-item_version	O	5d87a07f	1	rule	969657b8	4.14 템플릿은 core/ 에만 둔다.	4.14 템플릿은 core/ 에만 둔다. 그 밖에서는 구체 타입을 쓴다.	0f033c69caacec75
-item_version	O	5d9c30a3	1	rule	cbb5a614	2.2 포인터는 항상 길이와 함께 다닌다.	2.2 포인터는 항상 길이와 함께 다닌다. Span<T> 만 넘긴다.	b1d11b916d7be132
-item_version	O	600c198b	1	rule	291c4670	5.5 에러 코드를 문장으로 바꾸는 일은 presentation 에서만 한다.		06d75ca86d228658
-item_version	O	62b091a0	1	rule	17e806a6	3.6 16 바이트 이하의 trivially copyable 타입은 값으로, 나머지는 const& 로 넘긴다.		bf6a603493366877
-item_version	O	637973a2	1	rule	291c4670	5.7 C interface 의 출력 메모리는 union 없이 순차로 두고, bool 대신 <Organization><Project>Bool 을 쓴다.		a457cc97ece657c5
-item_version	O	7a7a76dd	1	rule	969657b8	4.15 호출자가 없는 메서드를 만들지 않는다.	4.15 호출자가 없는 메서드를 만들지 않는다. getter/setter 쌍을 만들지 않는다. 값 객체는 public 필드다.	9a5916a2213369de
-item_version	O	81639d02	1	rule	969657b8	4.2 한 함수는 한 추상 수준이다.	4.2 한 함수는 한 추상 수준이다. 흐름 함수는 호출과 에러 검사만 나열한다.	3ca0e902ef97efdd
-item_version	O	8492a76d	1	rule	1753b045	6.4 엣지 케이스는 흐름이 삼킨다.	6.4 엣지 케이스는 흐름이 삼킨다. 빈 입력·경계값도 같은 루프로 처리되게 설계하고, 조건 분기로 특수 처리하지 않는다.	83172df0e97931ed
-item_version	O	8d1003b3	1	rule	291c4670	5.4 스트림(파일, 소켓, USB) 읽기·쓰기만 Span 출력 인자를 허용한다.		658e1d57ca5643e3
-item_version	O	8d630cfc	1	rule	1753b045	6.3 한 흐름은 한 맥락만 다룬다.	6.3 한 흐름은 한 맥락만 다룬다. 여러 맥락이 필요하면 상위 맥락 함수가 조합한다.	66d913fa0b2f51a6
-item_version	O	90f6fa6c	1	rule	969657b8	4.18 한 클래스의 기능이 너무 많아지면, 그 클래스의 멤버 변수 reference 를 생성자로 받는 세부…	4.18 한 클래스의 기능이 너무 많아지면, 그 클래스의 멤버 변수 reference 를 생성자로 받는 세부 클래스에 기능을 나눠 맡긴다.	29e69379b6ea6004
-item_version	O	933cbc00	1	rule	dc2a5ab3	7.2 GUI · CLI · 서버 데몬		b85a00e50597cc10
-item_version	O	959084d4	1	rule	291c4670	5.2 C interface 는 <Organization><Project>_ 접두사를 붙인다.		11a770dd2abb8471
-item_version	O	969657b8	1	rule	-	4. 가독성		4896d96fa72b1083
-item_version	O	975029f0	1	rule	-	0. 원칙		404a8c496d054546
-item_version	O	9ae6446d	1	rule	969657b8	4.13 매크로를 쓰지 않는다.	4.13 매크로를 쓰지 않는다. 예외: 플랫폼 선택 #ifdef, #pragma once.	a35cc46bbdbf4ad3
-item_version	O	a8fbd9e6	1	rule	969657b8	4.10 멤버 변수를 쓰는 계산은 멤버를 인자로 받는 보조 함수로 뺀다.	4.10 멤버 변수를 쓰는 계산은 멤버를 인자로 받는 보조 함수로 뺀다. 메서드는 멤버를 모아 넘기고 결과를 저장하는 일만 한다.	e4e1edf96f836f3c
-item_version	O	a9827729	1	rule	291c4670	5.6 에러 코드는 include/ 에서만 정의한다.		e7fd9bb3475ab965
-item_version	O	ae6bdfec	1	rule	291c4670	5.3 스택에 담기 큰 결과는 Context 안의 멤버 참조를 Result<Value&, Code> 로 돌려준다.		176723e17f6ae716
-item_version	O	b0d2a761	1	rule	cbb5a614	2.10 모든 parse* 함수는 다음 다섯 입력을 테스트한다.		a3a27d1206cc21a0
-item_version	O	b19d9182	1	rule	-	1. 메모리 예측 가능성		3e8f9db50ae766d2
-item_version	O	ba195442	1	rule	b19d9182	1.7 스택 지역 버퍼는 1024 바이트 이하다.	1.7 스택 지역 버퍼는 1024 바이트 이하다. 더 크면 호출자가 넘긴 작업 Context 의 버퍼를 쓴다.	b76ec8ec1f82f5b6
-item_version	O	bd204eb1	1	rule	969657b8	4.12 삼항 연산자는 값 선택 한 단만 쓴다.	4.12 삼항 연산자는 값 선택 한 단만 쓴다. 중첩하지 않는다.	f238febbad7c6dee
-item_version	O	c29acf52	1	rule	b19d9182	1.8 재귀는 쓰지 않는다.	1.8 재귀는 쓰지 않는다. 깊이 제한이 있는 명시적 스택(FixedVector)으로 바꾼다.	c0cfdf1156b2cc3c
-item_version	O	c39b1670	1	rule	17e806a6	3.5 다른 스레드가 쓰는 데이터는 alignas(64) 로 캐시 라인을 분리한다.		3f1048c07a9368d6
-item_version	O	c3f906cb	1	rule	dc2a5ab3	7.1 C++ 라이브러리		170c1f2124adfe64
-item_version	O	cbb5a614	1	rule	-	2. 보안		665ba3d3a77c7ef4
-item_version	O	cedc19ca	1	rule	969657b8	4.16 const 가 기본이다.	4.16 const 가 기본이다. 바뀌는 변수만 non-const 로 둔다.	853926645cb612e2
-item_version	O	d997f408	1	rule	b19d9182	1.1 힙 할당은 초기화 함수 안에서만 한다.		6efb3553cb19d916
-item_version	O	dae00dde	1	rule	1753b045	6.2 함수는 인자와 리턴값으로만 세상과 만난다.		9c44d1ee552ead2c
-item_version	O	dc2a5ab3	1	rule	-	7. 디렉토리 구조와 의존 방향		159fdaf523e29272
-item_version	O	e2c79e79	1	rule	969657b8	4.1 수치 한계.	4.1 수치 한계. 넘으면 나눈다.	f8787b24bb8673cc
-item_version	O	e667522e	1	rule	1753b045	6.6 C interface 로 여러 인스턴스를 내보내는 조회는 커서로 한다.	6.6 C interface 로 여러 인스턴스를 내보내는 조회는 커서를 열고, 고정 크기 페이지를 가져오고, 닫는다. implementation 안은 index 로 바로 읽는다.	a82ab2ffe96e9791
-item_version	O	e972389a	1	rule	1753b045	6.5 같은 층위의 흐름은 서로 호출하지 않는다.		29dbca219ea297b6
-item_version	O	f0bea94a	1	rule	cbb5a614	2.8 enum 분기는 switch 로 전수 처리하고 default 를 두지 않는다.		c576d631e2a333e7
-item_version	O	f0d0c47f	1	rule	cbb5a614	2.1 신뢰 경계 밖에서 온 값은 parse* 함수 하나를 지나야 내부로 들어온다.		80761de8c0eef938
-item_version	O	f16dec83	1	rule	969657b8	4.7 매직 넘버를 쓰지 않는다.	4.7 매직 넘버를 쓰지 않는다. constexpr 상수에 이름을 붙인다.	1cf7ffb8cb66f5a3
-item_version	O	f1ed8d76	1	rule	dc2a5ab3	7.3 의존 방향 (왼쪽을 오른쪽이 쓴다)		29b207d109a305fa
-item_version	O	f618c7f5	1	rule	cbb5a614	2.9 빌드 옵션		fe84814ff765e410
-item_version	O	f8a460e7	1	rule	969657b8	4.5 bool 인자를 쓰지 않는다.	4.5 bool 인자를 쓰지 않는다. enum class 로 바꾼다. 출력 인자를 쓰지 않는다. 리턴값으로 돌려준다.	471df930c07e269b
-item_version	O	fce0b76f	1	rule	969657b8	4.8 작업을 완료하여 Release 를 하기 전까지 주석을 쓰지 않는다.		0f24bfce3d56abb2
-item_version	O	ff150583	1	rule	975029f0	0.1 언어 표준은 C++17 이다.		aeda524a32c150f9
+item_version	O	066a434f	1	rule	11668ff6	3.5 다른 스레드가 쓰는 데이터는 alignas(64) 로 캐시 라인을 분리한다.		3f1048c07a9368d6
+item_version	O	08377d73	1	rule	62b2137f	4.3 한 줄에 한 동작이다.	4.3 한 줄에 한 동작이다. 조건식 안에서 대입·호출을 하지 않는다. 선언·계산·호출을 한 줄에 섞지 않는다.	8f2f9815f744c3b3
+item_version	O	0a688ef8	1	rule	7538aea1	5.6 에러 코드는 include/ 에서만 정의한다.		e7fd9bb3475ab965
+item_version	O	0a7b0ad8	1	rule	be632cd8	0.1 언어 표준은 C++17 이다.		aeda524a32c150f9
+item_version	O	0dc0db1f	1	rule	62b2137f	4.9 읽는 순서 = 호출 순서.	4.9 읽는 순서 = 호출 순서. 상위 흐름 함수가 위, 보조 함수가 아래.	c9c313d7e1deada5
+item_version	O	10d55412	1	rule	62b2137f	4.15 호출자가 없는 메서드를 만들지 않는다.	4.15 호출자가 없는 메서드를 만들지 않는다. getter/setter 쌍을 만들지 않는다. 값 객체는 public 필드다.	9a5916a2213369de
+item_version	O	11668ff6	1	rule	-	3. 지역성		4ad4fd2921baf5c0
+item_version	O	12ce8746	1	rule	62b2137f	4.17 method 는 그 개념이 할 수 있는 동작을 나타내는 짧은 동사로 쓴다.		64a43879b2d49889
+item_version	O	136bbb56	1	rule	2540c12f	2.1 신뢰 경계 밖에서 온 값은 parse* 함수 하나를 지나야 내부로 들어온다.		80761de8c0eef938
+item_version	O	137c59f4	1	rule	-	1. 메모리 예측 가능성		3e8f9db50ae766d2
+item_version	O	15bb95b2	1	rule	-	9. 리뷰 체크리스트		12e7e83087b8894b
+item_version	O	16b77c8f	1	rule	62b2137f	4.6 auto 는 우변에 타입이 보일 때(생성자 호출, Result 반환)만 쓴다.	4.6 auto 는 우변에 타입이 보일 때(생성자 호출, Result 반환)만 쓴다. 숫자·bool 은 타입을 적는다.	221040699431c056
+item_version	O	1b92b690	1	rule	7538aea1	5.5 에러 코드를 문장으로 바꾸는 일은 presentation 에서만 한다.		06d75ca86d228658
+item_version	O	1c8365d5	1	rule	2540c12f	2.7 민감 데이터(키, 토큰, 환자 식별자)는 쓰고 나서 secureZero 로 지운다.		fe91645ee77b6e86
+item_version	O	1c8ea96d	1	rule	7538aea1	5.8 C interface 의 소유권 이동은 handle 포인터를 마지막 인자로 받고 성공하면 0 으로 지운다.	C ABI 의 소유권 이동 (std::move 의 C 판)	7f10a4d991374d5f
+item_version	O	203f2357	1	rule	286587c1	7.1 C++ 라이브러리		170c1f2124adfe64
+item_version	O	21373a2a	1	rule	62b2137f	4.12 삼항 연산자는 값 선택 한 단만 쓴다.	4.12 삼항 연산자는 값 선택 한 단만 쓴다. 중첩하지 않는다.	f238febbad7c6dee
+item_version	O	22532d44	1	rule	62b2137f	4.13 매크로를 쓰지 않는다.	4.13 매크로를 쓰지 않는다. 예외: 플랫폼 선택 #ifdef, #pragma once.	a35cc46bbdbf4ad3
+item_version	O	23165054	1	rule	-	8. i18n		9cd6ecb10f15a021
+item_version	O	2540c12f	1	rule	-	2. 보안		665ba3d3a77c7ef4
+item_version	O	286587c1	1	rule	-	7. 디렉토리 구조와 의존 방향		159fdaf523e29272
+item_version	O	2c53163c	1	rule	7538aea1	5.4 스트림(파일, 소켓, USB) 읽기·쓰기만 Span 출력 인자를 허용한다.		658e1d57ca5643e3
+item_version	O	2d87a753	1	rule	2540c12f	2.2 포인터는 항상 길이와 함께 다닌다.	2.2 포인터는 항상 길이와 함께 다닌다. Span<T> 만 넘긴다.	b1d11b916d7be132
+item_version	O	32c3d72a	1	rule	7538aea1	5.7 C interface 의 출력 메모리는 union 없이 순차로 두고, bool 대신 <Organization><Project>Bool 을 쓴다.		a457cc97ece657c5
+item_version	O	379c7cab	1	rule	62b2137f	4.16 const 가 기본이다.	4.16 const 가 기본이다. 바뀌는 변수만 non-const 로 둔다.	853926645cb612e2
+item_version	O	37d708bf	1	rule	11668ff6	3.2 포인터로 연결된 자료구조는 쓰지 않는다.	3.2 포인터로 연결된 자료구조는 쓰지 않는다. 배열 + index 로 만든다.	74393a711ace59f2
+item_version	O	394ac4f7	1	rule	2540c12f	2.10 모든 parse* 함수는 다음 다섯 입력을 테스트한다.		a3a27d1206cc21a0
+item_version	O	3a5d2af6	1	rule	137c59f4	1.8 재귀는 쓰지 않는다.	1.8 재귀는 쓰지 않는다. 깊이 제한이 있는 명시적 스택(FixedVector)으로 바꾼다.	c0cfdf1156b2cc3c
+item_version	O	40baa5f2	1	rule	62b2137f	4.2 한 함수는 한 추상 수준이다.	4.2 한 함수는 한 추상 수준이다. 흐름 함수는 호출과 에러 검사만 나열한다.	3ca0e902ef97efdd
+item_version	O	46068aa6	1	rule	7538aea1	5.1 에러는 Result<Value, Code> 리턴값으로만 전달한다.	5.1 에러는 Result<Value, Code> 리턴값으로만 전달한다. 예외, errno, 전역 상태는 쓰지 않는다.	a0ebd6b3cdbccc7f
+item_version	O	469f2b6a	1	rule	d6ab0451	6.6 C interface 로 여러 인스턴스를 내보내는 조회는 커서로 한다.	6.6 C interface 로 여러 인스턴스를 내보내는 조회는 커서를 열고, 고정 크기 페이지를 가져오고, 닫는다. implementation 안은 index 로 바로 읽는다.	a82ab2ffe96e9791
+item_version	O	49550d42	1	rule	11668ff6	3.3 순회는 index 순서로 풀 전체를 훑는다.		0f4c1a429e8adbc2
+item_version	O	4b7222e8	1	rule	137c59f4	1.5 대용량 데이터와 다른 Entity 참조는 Handle 로 보관한다.		57d8e7be6d777a62
+item_version	O	4e5cf82a	1	rule	62b2137f	4.1 수치 한계.	4.1 수치 한계. 넘으면 나눈다.	f8787b24bb8673cc
+item_version	O	4f7c9294	1	rule	137c59f4	1.2 전역 Context 가 모든 인스턴스를 소유하고, 소멸자가 전부 해제한다.		067f2b1103276917
+item_version	O	62b2137f	1	rule	-	4. 가독성		4896d96fa72b1083
+item_version	O	639490cd	1	rule	62b2137f	4.4 이름		4e23cbfc965c4e98
+item_version	O	639b7698	1	rule	2540c12f	2.5 외부에는 포인터를 내보내지 않는다.	2.5 외부에는 포인터를 내보내지 않는다. 외부는 Context 와 Handle 만 가진다.	db2ba193cd4cdb32
+item_version	O	66c2e112	1	rule	d6ab0451	6.1 작업 순서는 타입으로 강제한다.	6.1 작업 순서는 타입으로 강제한다. A→B→C 는 A 의 출력 타입이 B 의 입력이다.	105b852597af546d
+item_version	O	6a3526b2	1	rule	137c59f4	1.7 스택 지역 버퍼는 1024 바이트 이하다.	1.7 스택 지역 버퍼는 1024 바이트 이하다. 더 크면 호출자가 넘긴 작업 Context 의 버퍼를 쓴다.	b76ec8ec1f82f5b6
+item_version	O	6bca51a0	1	rule	d6ab0451	6.3 한 흐름은 한 맥락만 다룬다.	6.3 한 흐름은 한 맥락만 다룬다. 여러 맥락이 필요하면 상위 맥락 함수가 조합한다.	66d913fa0b2f51a6
+item_version	O	7421a185	1	rule	137c59f4	1.9 모든 변수는 선언과 동시에 {} 로 초기화한다.		d4934d9819e25b55
+item_version	O	7538aea1	1	rule	-	5. 에러 처리		77199d626de6fdfa
+item_version	O	78821542	1	rule	62b2137f	4.11 부정 조건을 피한다.	4.11 부정 조건을 피한다. if (!isEmpty()) 대신 if (hasItems()). 이중 부정 금지.	52812be755a87794
+item_version	O	7f421b91	1	rule	62b2137f	4.5 bool 인자를 쓰지 않는다.	4.5 bool 인자를 쓰지 않는다. enum class 로 바꾼다. 출력 인자를 쓰지 않는다. 리턴값으로 돌려준다.	471df930c07e269b
+item_version	O	824c94e9	1	rule	62b2137f	4.8 작업을 완료하여 Release 를 하기 전까지 주석을 쓰지 않는다.		0f24bfce3d56abb2
+item_version	O	85f145f3	1	rule	137c59f4	1.4 Entity 는 값 객체다.	1.4 Entity 는 값 객체다. 포인터 없음, 고정 크기, 1024 바이트 이하.	0686afdb4c713b77
+item_version	O	872853d3	1	rule	137c59f4	1.1 힙 할당은 초기화 함수 안에서만 한다.		6efb3553cb19d916
+item_version	O	8778fb0f	1	rule	286587c1	7.2 GUI · CLI · 서버 데몬		b85a00e50597cc10
+item_version	O	89480364	1	rule	137c59f4	1.10 Raw pointer 는 쓰지 않는다.		a101099cf7c49237
+item_version	O	8c5d9c37	1	rule	286587c1	7.4 core/ 는 범용 자료구조와 유틸만 둔다.		fc7209efb9933c5c
+item_version	O	90e9775e	1	rule	62b2137f	4.14 템플릿은 core/ 에만 둔다.	4.14 템플릿은 core/ 에만 둔다. 그 밖에서는 구체 타입을 쓴다.	0f033c69caacec75
+item_version	O	945321c7	1	rule	7538aea1	5.3 스택에 담기 큰 결과는 Context 안의 멤버 참조를 Result<Value&, Code> 로 돌려준다.		176723e17f6ae716
+item_version	O	9517db7e	1	rule	d6ab0451	6.4 엣지 케이스는 흐름이 삼킨다.	6.4 엣지 케이스는 흐름이 삼킨다. 빈 입력·경계값도 같은 루프로 처리되게 설계하고, 조건 분기로 특수 처리하지 않는다.	83172df0e97931ed
+item_version	O	9c2af7e1	1	rule	2540c12f	2.4 정수는 범위를 검사한 뒤에 쓴다.		c7611c553679d258
+item_version	O	9df3b837	1	rule	2540c12f	2.6 외부 문자열은 null 종료를 가정하지 않는다.		0f7c709464cd1f89
+item_version	O	a85736ad	1	rule	2540c12f	2.8 enum 분기는 switch 로 전수 처리하고 default 를 두지 않는다.		c576d631e2a333e7
+item_version	O	a97f639c	1	rule	d6ab0451	6.5 같은 층위의 흐름은 서로 호출하지 않는다.		29dbca219ea297b6
+item_version	O	ad0c7901	1	rule	137c59f4	1.6 컨테이너는 core/ 의 고정 크기 컨테이너만 쓴다.		be57f300ef392b77
+item_version	O	b125445f	1	rule	11668ff6	3.4 멤버는 크기 내림차순으로 배치하고 static_assert(sizeof) 로 패딩을 고정한다.		d38935600e27c10a
+item_version	O	b38ce056	1	rule	d6ab0451	6.2 함수는 인자와 리턴값으로만 세상과 만난다.		9c44d1ee552ead2c
+item_version	O	b5b50a5a	1	rule	2540c12f	2.3 금지 함수와 대체		3982553aa87d418f
+item_version	O	b8f06ae8	1	rule	7538aea1	5.2 C interface 는 <Organization><Project>_ 접두사를 붙인다.		11a770dd2abb8471
+item_version	O	b8f486cb	1	rule	62b2137f	4.10 멤버 변수를 쓰는 계산은 멤버를 인자로 받는 보조 함수로 뺀다.	4.10 멤버 변수를 쓰는 계산은 멤버를 인자로 받는 보조 함수로 뺀다. 메서드는 멤버를 모아 넘기고 결과를 저장하는 일만 한다.	e4e1edf96f836f3c
+item_version	O	bdf0a775	1	rule	d6ab0451	6.7 크로스 플랫폼 클래스는 backend 헤더를 선택하고 Payload 멤버로 구현을 감춘다.		f8e651a11be24b2f
+item_version	O	be632cd8	1	rule	-	0. 원칙		404a8c496d054546
+item_version	O	ccdfaa19	1	rule	62b2137f	4.7 매직 넘버를 쓰지 않는다.	4.7 매직 넘버를 쓰지 않는다. constexpr 상수에 이름을 붙인다.	1cf7ffb8cb66f5a3
+item_version	O	d6ab0451	1	rule	-	6. 설계		3b8cfe84c784e226
+item_version	O	dab12ac9	1	rule	62b2137f	4.18 한 클래스의 기능이 너무 많아지면, 그 클래스의 멤버 변수 reference 를 생성자로 받는 세부…	4.18 한 클래스의 기능이 너무 많아지면, 그 클래스의 멤버 변수 reference 를 생성자로 받는 세부 클래스에 기능을 나눠 맡긴다.	29e69379b6ea6004
+item_version	O	e28207fa	1	rule	286587c1	7.3 의존 방향 (왼쪽을 오른쪽이 쓴다)		29b207d109a305fa
+item_version	O	e4c983ec	1	rule	11668ff6	3.6 16 바이트 이하의 trivially copyable 타입은 값으로, 나머지는 const& 로 넘긴다.		bf6a603493366877
+item_version	O	f3129577	1	rule	11668ff6	3.1 같은 시점에 함께 읽는 필드만 같은 struct 에 둔다.		098181f61bdaad07
+item_version	O	f7bcf8ce	1	rule	2540c12f	2.9 빌드 옵션		fe84814ff765e410
+item_version	O	f88bb73d	1	rule	137c59f4	1.3 반복 생성·소멸되는 인스턴스는 풀에서 꺼내고, Handle 로만 접근한다.		efe0bd7a8d9fd1ae
+item_version	O	f9f77177	1	rule	d6ab0451	6.8 외부와 주고받는 문자열은 UTF-8 이다.	6.8 외부와 주고받는 문자열은 UTF-8 이다. 다른 인코딩은 presentation 의 변환기에서 UTF-8 로 바꾼다.	9cf867734774d237
 TABLE	tag	O/X	key	tag	checkpoint	value
-tag	O	029979bf	수칙 종류	1	컨벤션
-tag	O	035b54aa	수칙 종류	1	컨벤션
-tag	O	04c783ea	수칙 종류	1	컨벤션
-tag	O	08fe2a2b	수칙 종류	1	테스트
-tag	O	1753b045	수칙 종류	1	아키텍처
-tag	O	17e806a6	수칙 종류	1	코딩 제약
-tag	O	17ea5c8d	수칙 종류	1	코딩 제약
-tag	O	237b3313	수칙 종류	1	코딩 제약
-tag	O	240282ef	수칙 종류	1	코딩 제약
-tag	O	253605c0	수칙 종류	1	코딩 제약
-tag	O	291c4670	수칙 종류	1	아키텍처
-tag	O	2ca2fff6	수칙 종류	1	코딩 제약
-tag	O	2fa1b0d6	수칙 종류	1	아키텍처
-tag	O	316c1a3c	수칙 종류	1	아키텍처
-tag	O	34c2abef	수칙 종류	1	코딩 제약
-tag	O	36e5888d	수칙 종류	1	코딩 제약
-tag	O	38cc8ca9	수칙 종류	1	컨벤션
-tag	O	39cf11b2	수칙 종류	1	코딩 제약
-tag	O	39e854b0	수칙 종류	1	코딩 제약
-tag	O	39ea3ebc	수칙 종류	1	코딩 제약
-tag	O	42ad54c2	수칙 종류	1	코딩 제약
-tag	O	44733d8a	수칙 종류	1	코딩 제약
-tag	O	4611bb03	수칙 종류	1	코딩 제약
-tag	O	48975878	수칙 종류	1	코딩 제약
-tag	O	4a0c9ac5	수칙 종류	1	코딩 제약
-tag	O	4b931850	수칙 종류	1	컨벤션
-tag	O	4c5d0ba1	수칙 종류	1	아키텍처
-tag	O	4c5e5e82	수칙 종류	1	컨벤션
-tag	O	4f46cf12	수칙 종류	1	아키텍처
-tag	O	54741482	수칙 종류	1	컨벤션
-tag	O	5af628cf	수칙 종류	1	코딩 제약
-tag	O	5b0f1279	수칙 종류	1	아키텍처
-tag	O	5d87a07f	수칙 종류	1	컨벤션
-tag	O	5d9c30a3	수칙 종류	1	코딩 제약
-tag	O	600c198b	수칙 종류	1	아키텍처
-tag	O	62b091a0	수칙 종류	1	코딩 제약
-tag	O	637973a2	수칙 종류	1	코딩 제약
-tag	O	7a7a76dd	수칙 종류	1	컨벤션
-tag	O	81639d02	수칙 종류	1	컨벤션
-tag	O	8492a76d	수칙 종류	1	아키텍처
-tag	O	8d1003b3	수칙 종류	1	아키텍처
-tag	O	8d630cfc	수칙 종류	1	아키텍처
-tag	O	90f6fa6c	수칙 종류	1	컨벤션
-tag	O	933cbc00	수칙 종류	1	아키텍처
-tag	O	959084d4	수칙 종류	1	컨벤션
-tag	O	969657b8	수칙 종류	1	컨벤션
-tag	O	975029f0	수칙 종류	1	코딩 제약
-tag	O	9ae6446d	수칙 종류	1	컨벤션
-tag	O	a8fbd9e6	수칙 종류	1	컨벤션
-tag	O	a9827729	수칙 종류	1	컨벤션
-tag	O	ae6bdfec	수칙 종류	1	아키텍처
-tag	O	b0d2a761	수칙 종류	1	테스트
-tag	O	b19d9182	수칙 종류	1	코딩 제약
-tag	O	ba195442	수칙 종류	1	코딩 제약
-tag	O	bd204eb1	수칙 종류	1	컨벤션
-tag	O	c29acf52	수칙 종류	1	코딩 제약
-tag	O	c39b1670	수칙 종류	1	코딩 제약
-tag	O	c3f906cb	수칙 종류	1	아키텍처
-tag	O	cbb5a614	수칙 종류	1	코딩 제약
-tag	O	cedc19ca	수칙 종류	1	컨벤션
-tag	O	d997f408	수칙 종류	1	코딩 제약
-tag	O	dae00dde	수칙 종류	1	아키텍처
-tag	O	dc2a5ab3	수칙 종류	1	아키텍처
-tag	O	e2c79e79	수칙 종류	1	컨벤션
-tag	O	e667522e	수칙 종류	1	아키텍처
-tag	O	e972389a	수칙 종류	1	아키텍처
-tag	O	f0bea94a	수칙 종류	1	코딩 제약
-tag	O	f0d0c47f	수칙 종류	1	코딩 제약
-tag	O	f16dec83	수칙 종류	1	컨벤션
-tag	O	f1ed8d76	수칙 종류	1	의존성
-tag	O	f618c7f5	수칙 종류	1	의존성
-tag	O	f8a460e7	수칙 종류	1	컨벤션
-tag	O	fce0b76f	수칙 종류	1	컨벤션
-tag	O	ff150583	수칙 종류	1	코딩 제약
+tag	O	066a434f	수칙 종류	1	코딩 제약
+tag	O	08377d73	수칙 종류	1	컨벤션
+tag	O	0a688ef8	수칙 종류	1	컨벤션
+tag	O	0a7b0ad8	수칙 종류	1	코딩 제약
+tag	O	0dc0db1f	수칙 종류	1	컨벤션
+tag	O	10d55412	수칙 종류	1	컨벤션
+tag	O	11668ff6	수칙 종류	1	코딩 제약
+tag	O	12ce8746	수칙 종류	1	컨벤션
+tag	O	136bbb56	수칙 종류	1	코딩 제약
+tag	O	137c59f4	수칙 종류	1	코딩 제약
+tag	O	15bb95b2	수칙 종류	1	테스트
+tag	O	16b77c8f	수칙 종류	1	컨벤션
+tag	O	1b92b690	수칙 종류	1	아키텍처
+tag	O	1c8365d5	수칙 종류	1	코딩 제약
+tag	O	1c8ea96d	수칙 종류	1	코딩 제약
+tag	O	203f2357	수칙 종류	1	아키텍처
+tag	O	21373a2a	수칙 종류	1	컨벤션
+tag	O	22532d44	수칙 종류	1	컨벤션
+tag	O	23165054	수칙 종류	1	컨벤션
+tag	O	2540c12f	수칙 종류	1	코딩 제약
+tag	O	286587c1	수칙 종류	1	아키텍처
+tag	O	2c53163c	수칙 종류	1	아키텍처
+tag	O	2d87a753	수칙 종류	1	코딩 제약
+tag	O	32c3d72a	수칙 종류	1	코딩 제약
+tag	O	379c7cab	수칙 종류	1	컨벤션
+tag	O	37d708bf	수칙 종류	1	코딩 제약
+tag	O	394ac4f7	수칙 종류	1	테스트
+tag	O	3a5d2af6	수칙 종류	1	코딩 제약
+tag	O	40baa5f2	수칙 종류	1	컨벤션
+tag	O	46068aa6	수칙 종류	1	아키텍처
+tag	O	469f2b6a	수칙 종류	1	아키텍처
+tag	O	49550d42	수칙 종류	1	코딩 제약
+tag	O	4b7222e8	수칙 종류	1	코딩 제약
+tag	O	4e5cf82a	수칙 종류	1	컨벤션
+tag	O	4f7c9294	수칙 종류	1	코딩 제약
+tag	O	62b2137f	수칙 종류	1	컨벤션
+tag	O	639490cd	수칙 종류	1	컨벤션
+tag	O	639b7698	수칙 종류	1	코딩 제약
+tag	O	66c2e112	수칙 종류	1	아키텍처
+tag	O	6a3526b2	수칙 종류	1	코딩 제약
+tag	O	6bca51a0	수칙 종류	1	아키텍처
+tag	O	7421a185	수칙 종류	1	코딩 제약
+tag	O	7538aea1	수칙 종류	1	아키텍처
+tag	O	78821542	수칙 종류	1	컨벤션
+tag	O	7f421b91	수칙 종류	1	컨벤션
+tag	O	824c94e9	수칙 종류	1	컨벤션
+tag	O	85f145f3	수칙 종류	1	코딩 제약
+tag	O	872853d3	수칙 종류	1	코딩 제약
+tag	O	8778fb0f	수칙 종류	1	아키텍처
+tag	O	89480364	수칙 종류	1	코딩 제약
+tag	O	8c5d9c37	수칙 종류	1	아키텍처
+tag	O	90e9775e	수칙 종류	1	컨벤션
+tag	O	945321c7	수칙 종류	1	아키텍처
+tag	O	9517db7e	수칙 종류	1	아키텍처
+tag	O	9c2af7e1	수칙 종류	1	코딩 제약
+tag	O	9df3b837	수칙 종류	1	코딩 제약
+tag	O	a85736ad	수칙 종류	1	코딩 제약
+tag	O	a97f639c	수칙 종류	1	아키텍처
+tag	O	ad0c7901	수칙 종류	1	코딩 제약
+tag	O	b125445f	수칙 종류	1	코딩 제약
+tag	O	b38ce056	수칙 종류	1	아키텍처
+tag	O	b5b50a5a	수칙 종류	1	코딩 제약
+tag	O	b8f06ae8	수칙 종류	1	컨벤션
+tag	O	b8f486cb	수칙 종류	1	컨벤션
+tag	O	bdf0a775	수칙 종류	1	아키텍처
+tag	O	be632cd8	수칙 종류	1	코딩 제약
+tag	O	ccdfaa19	수칙 종류	1	컨벤션
+tag	O	d6ab0451	수칙 종류	1	아키텍처
+tag	O	dab12ac9	수칙 종류	1	컨벤션
+tag	O	e28207fa	수칙 종류	1	의존성
+tag	O	e4c983ec	수칙 종류	1	코딩 제약
+tag	O	f3129577	수칙 종류	1	코딩 제약
+tag	O	f7bcf8ce	수칙 종류	1	의존성
+tag	O	f88bb73d	수칙 종류	1	코딩 제약
+tag	O	f9f77177	수칙 종류	1	아키텍처
 TABLE	relation	O/X	from	model	relation	to	checkpoint
 TABLE	decision	O/X	kind	checkpoint	text
 TABLE	body	O/X	key	text
-body	O	029979bf	## 수칙\r\r\n4.11 부정 조건을 피한다. `if (!isEmpty())` 대신 `if (hasItems())`. 이중 부정 금지.\r\r\n
-body	O	035b54aa	- 헤더: `public` → `private`.\r\r\n- 소스: 익명 namespace 에 보조 함수 선언 → 공개 함수 정의 → 보조 함수 정의.\r\r\n
-body	O	04c783ea	- 보이는 모든 문장은 Key 를 가진다. Key → 언어별 Value 는 `i18n/` 에 둔다.\n- 문장 조립은 View·ViewModel 에서만 한다. domain·datalayer 는 문장을 만들지 않는다.\n- 치환은 `core/format` 의 `{0}` 자리표시자로 한다. `printf` 포맷 문자열을 번역 데이터로 쓰지 않는다.\n\n```cpp\nvoid SomeViewModel::setLabel(StringView parameter)\n{\n    StringView format = _locale.get(Key::WARNING_MESSAGE_1, currentLanguage());\n    formatInto(_label, format, parameter);  // FixedString<256> _label\n}\n```\n
-body	O	08fe2a2b	PR 마다 아래 열여섯 가지에 모두 "예" 여야 한다.\n\n1. 초기화 함수 밖에 힙 할당이 없다.\n2. 모든 Handle 접근이 generation 을 검증한다.\n3. 외부 입력은 `parse*` 하나를 지나고, 내부에서 다시 검증하지 않는다.\n4. 길이 없는 포인터 인자가 없다.\n5. 금지 함수(`strcpy`, `sprintf`, `atoi`, 직접 `memcpy` 등)가 없다.\n6. 정수 덧셈·곱셈이 `checked*` 를 쓰거나 넘칠 수 없음이 자명하다.\n7. 새 struct 는 `static_assert(sizeof)` 가 있고 hot/cold 가 나뉘어 있다.\n8. 함수 30줄, 중첩 2단, 인자 4개를 넘지 않는다.\n9. `switch` 에 `default` 가 없고 모든 enum 멤버가 있다.\n10. 새 `parse*` 함수는 빈 입력, 최대 길이, 최대 길이 + 1, 중간 null 바이트, 잘못된 UTF-8 다섯 입력을 테스트한다.\n11. 새 C interface 함수는 `<Organization><Project>_` 접두사를 가진다.\n12. 추가된 소스 줄에 주석이 없다. Release 준비 PR 은 예외다.\n13. 새 method 는 동사로 시작하고, 멤버 접근 method 는 필요한 이유가 PR 에 적혀 있다. `core/` 는 예외다.\n14. `core/` 파일이 도메인 용어나 `<Organization><Project>*` 레코드 타입을 담지 않는다.\n15. 새 에러 enum 이 없고, 모든 에러는 `include/<library_name>.h` 의 값을 쓴다.\n16. C interface 의 인자·반환값·struct 에 `union` 이 없고, 참·거짓 값은 `bool` 이 아니라 `<Organization><Project>Bool` (`int32_t` typedef) 이다.\n
-body	O	1753b045	## 수칙\n6. 설계\n
-body	O	17e806a6	## 수칙\n3. 지역성\n
-body	O	17ea5c8d	| 쓰지 않음 | 대신 |\n| --- | --- |\n| `strcpy` `strcat` `strlen` `gets` `sprintf` | `FixedString::assign/append`, `Span.length` |\n| 비상수 포맷의 `printf` 계열 | 상수 포맷 + `core/format` (`{0}` 치환) |\n| `atoi` `atol` `strtol` | `core/parseInteger` → `Result` |\n| 직접 `memcpy` `memset` | `Span::copyFrom`, `Span::fill` |\n| `new` `delete` `malloc` `free` | 초기화 함수 안의 `std::vector`, `unique_ptr` |\n| C 스타일 캐스트, `reinterpret_cast` | `static_cast`. `reinterpret_cast` 는 `infra/*/backend` 만 |\n| `rand` | `infra/random` (OS CSPRNG) |\n
-body	O	237b3313	- 개수가 컴파일 타임에 정해지면 `Pool<Value, N>`, 설정값이면 `LazyPool<Value>` (생성자에서 확보, 이후 크기 불변).\n- Handle 은 `{index, generation}`. generation 불일치는 `INVALID_HANDLE`. 슬롯 재사용 시 generation 을 올린다.\n- generation·free list 는 값 배열과 분리해 둔다. 값 배열만 연속으로 스캔할 수 있다.\n\n```cpp\ntemplate<typename Value>\nclass LazyPool\n{\npublic:\n    explicit LazyPool(size_t capacity);\n\n    Handle acquire();                              // 가득 차면 invalid Handle\n    Result<Value&, ErrorCode> get(Handle handle);  // generation 검증\n    void release(Handle handle);\n    size_t capacity() const;\n\nprivate:\n    std::vector<Value>    _values;       // 초기화 후 크기 불변\n    std::vector<uint32_t> _generations;  // _values 와 같은 index\n    std::vector<uint32_t> _free_indices;\n    size_t                _free_count;\n};\n```\n
-body	O	240282ef	- 비소유 참조는 `&` 멤버로 두고 생성자에서 받는다.\n- 기본 생성자가 필요하면 메서드 인자로 매번 받는다.\n- 예외: 스트림 I/O(`Span` 내부), `core/` 자료구조 내부, C interface.\n\n```cpp\nclass Some\n{\npublic:\n    explicit Some(Dependency& dependency) : _dependency(dependency) {}\nprivate:\n    Dependency& _dependency;\n};\n```\n
-body	O	253605c0	| 용도 | 사용 | 쓰지 않음 |\n| --- | --- | --- |\n| 가변 길이 배열 | `FixedVector<T, N>` | `std::vector` (초기화 함수 제외) |\n| 문자열 | `FixedString<N>`, `StringView` | `std::string` |\n| 키 조회 | `FixedMap<K, V, N>` (정렬 배열 + 이진 탐색) | `std::map`, `std::unordered_map` |\n| 바이트 범위 | `Span<T>` = `{pointer, length}` | `T*` 단독 |\n
-body	O	291c4670	## 수칙\n5. 에러 처리\n
-body	O	2ca2fff6	```cpp\nstruct Handle\n{\n    uint32_t index;       // INVALID_INDEX 면 비어 있음\n    uint16_t generation;\n    uint16_t type;        // 어떤 풀의 Handle 인지\n};\ntemplate<uint16_t Type> struct TypedHandle : Handle { TypedHandle() : Handle{INVALID_INDEX, 0, Type} {} };\n\nusing ImageHandle = TypedHandle<HandleType::IMAGE>;  // entity/ 에서 정의\n\nstruct Entity\n{\n    ImageHandle                       image;      // 대용량 데이터\n    FixedVector<OtherEntity, MAX_CHILDREN> children; // 직접 보유\n    FixedVector<OtherEntityHandle, MAX_LINKS> links; // 참조만 보유\n};\n```\n
-body	O	2fa1b0d6	## 수칙\n6.8 외부와 주고받는 문자열은 UTF-8 이다. 다른 인코딩은 presentation 의 변환기에서 UTF-8 로 바꾼다.\n
-body	O	316c1a3c	```cpp\nauto opened = openCursor(context, query);\nauto page   = fetchPage(context, opened.value, 0);  // CursorHandle 없이는 호출 불가\ncloseCursor(context, opened.value);\n```\n
-body	O	34c2abef	```cpp\nstruct Context\n{\n    explicit Context(const Configuration& configuration); // 모든 풀을 여기서 확보\n    ~Context() = default;                                  // 멤버 소멸로 전부 해제\n\n    LazyPool<Server> servers;\n    LazyPool<Client> clients;\n};\n```\n\n- 사용 순서: `createContext → create*(context, configuration) → run → release* → releaseContext`.\n- `release*` 를 호출하지 않아도 `releaseContext` 하나로 누수 없이 정리된다.\n
-body	O	36e5888d	- 매 루프 읽는 hot 필드와 가끔 읽는 cold 필드(이름, 설명)는 같은 index 를 쓰는 두 배열로 나눈다.\n\n```cpp\nstruct SessionState { uint32_t last_seen_milliseconds; uint16_t flags; };  // 매 틱 스캔\nstruct SessionInfo  { FixedString<64> user; FixedString<32> device; };    // 조회 시만\n\nstruct SessionRepository\n{\n    LazyPool<SessionState> states;   // Handle.index 공유\n    std::vector<SessionInfo> infos;  // 초기화 때 states.capacity() 로 확보\n};\n```\n
-body	O	38cc8ca9	## 수칙\r\r\n4.3 한 줄에 한 동작이다. 조건식 안에서 대입·호출을 하지 않는다. 선언·계산·호출을 한 줄에 섞지 않는다.\r\r\n
-body	O	39cf11b2	- 로그·에러 메시지에 넣지 않는다.\n- 비교는 상수 시간 `constantTimeEquals` 를 쓴다.\n
-body	O	39e854b0	```cpp\nstruct Entity\n{\n    FixedString<32> name;\n    FixedString<64> id;\n    int32_t         value;\n};\nstatic_assert(sizeof(Entity) <= 1024, "Entity must fit on the stack");\n```\n
-body	O	39ea3ebc	- 크기·길이·오프셋은 `size_t`.\n- 외부에서 온 정수는 `[min, max]` 검사 후 사용한다. enum 으로 바꿀 때도 같다.\n- 덧셈·곱셈은 `core/<organization>_checked.h` 의 `checkedAdd`, `checkedMultiply` 를 쓴다. 넘치면 `Result` 실패.\n- 부호가 다른 비교는 컴파일 에러로 막는다 (`-Wsign-compare -Werror`).\n
-body	O	42ad54c2	- 경계에서는 `Span<const char>` 로 받고 UTF-8 유효성을 검사한다.\n- `FixedString` 은 항상 null 종료를 보장하고 `assign` 실패 시 비운다.\n
-body	O	44733d8a	```cpp\nstruct Record\n{\n    uint64_t id;\n    uint32_t count;\n    uint16_t flags;\n    uint8_t  kind;\n    uint8_t  _padding;\n};\nstatic_assert(sizeof(Record) == 16, "unexpected padding");\n```\n
-body	O	4611bb03	- Handle 목록을 따라가며 흩어진 슬롯을 읽지 않는다.\n- 다른 풀의 데이터가 필요하면 index 를 먼저 모으고(1차 패스) 그 풀을 순서대로 읽는다(2차 패스).\n
-body	O	48975878	## 수칙\n1.9 모든 변수는 선언과 동시에 `{}` 로 초기화한다.\n
-body	O	4a0c9ac5	- 연결 리스트, 포인터 트리, 노드 할당 map 금지. 트리는 `parent_index`, `first_child_index` 배열로 표현한다.\n
-body	O	4b931850	## 수칙\r\r\n4.6 `auto` 는 우변에 타입이 보일 때(생성자 호출, `Result` 반환)만 쓴다. 숫자·bool 은 타입을 적는다.\r\r\n
-body	O	4c5d0ba1	```cpp\n#ifdef _WIN32\n#include "backend/acme_windows_socket.h"\n#else\n#include "backend/acme_posix_socket.h"\n#endif\n\nclass Socket\n{\npublic:\n    Result<size_t, ErrorCode> read(Span<char> output);\nprivate:\n    SocketPayload _payload;  // backend 에서 정의\n};\n```\n
-body	O	4c5e5e82	| 대상 | 규칙 | 예 |\r\r\n| --- | --- | --- |\r\r\n| 함수 | 동사 + 목적어, camelCase | `openCursor`, `parseConfiguration` |\r\r\n| bool | `is` / `has` / `can` | `isValid`, `hasChildren` |\r\r\n| 변수 | snake_case, 단위 포함 | `timeout_milliseconds`, `buffer_length` |\r\r\n| private 멤버 | `_` 접두 | `_free_count` |\r\r\n| 상수, enum 멤버 | UPPER_SNAKE | `MAX_SESSIONS`, `POOL_IS_FULL` |\r\r\n| 클래스, enum, 타입 | PascalCase | `LazyPool`, `ErrorCode` |\r\r\n| 파일 | `<organization>_snake_case(클래스명).h` / `.cpp`, 파일 하나 = 클래스 하나. 조직 이름 접두사로 다른 라이브러리 헤더와 겹치지 않게 한다 | `acme_lazy_pool.h`, `acme_lazy_pool.cpp` |\r\r\n| namespace | `<organization>::<project>::implementation`. 예: `acme::net::implementation`. 조직·프로젝트 이름은 사용자가 정한다. | |\r\r\n\r\r\n- 약어를 쓰지 않는다. 이름은 네 단어 이하.\r\r\n
-body	O	4f46cf12	- `core/` 는 도메인 용어(그 프로젝트가 다루는 업무 개념)와 도메인 레코드를 담지 않는다.\n- `core/` 는 C 인터페이스의 레코드 타입(`<Organization><Project>*` 구조체)을 담지 않는다. 에러 enum 만 `include/` 에서 가져온다.\n- 도메인 레코드를 C 구조체로 바꾸는 코드는 `src/` 어댑터에 둔다. 커서 풀은 `data/datasource/`, 커서에 결과 행을 쓰는 코드는 `domain/usecases/` 에 둔다.\n- `core/` 는 `include/<library_name>.h` 의 에러 enum 외에는 프로젝트 고유 헤더에 의존하지 않는다.\n
-body	O	54741482	- 통상적으로 이해되는 동사를 쓴다. 예: `acquire`, `release`, `open`, `fetch`, `append`, `parse`.\n- `getXxx`, `doXxx`, `handleXxx` 처럼 동작을 드러내지 않는 이름을 쓰지 않는다.\n- 멤버 변수에 접근하는 method 는 꼭 필요한 경우에만 만든다. 다른 layer 가 값을 읽어야 하고 동작으로 대신할 수 없을 때가 필요한 경우다.\n- 예외: 아래 이름은 동사가 아니어도 된다.\n  - 속성 돌려주기: 그 값을 보는 일 자체가 조회 기능이면 명사를 쓴다. 예: `reader()`, `length()`, `capacity()`. struct 가 아닌 자료구조 class 에서 쓰고, 멤버 변수를 그대로 드러내는 용도로는 권하지 않는다.\n  - 타입 변환: `to` + 타입 이름. 예: `toMilliseconds`.\n  - 색인: 위치 · 번호를 찾아 돌려주는 `...Of`. 예: `indexOf`, `offsetOf`.\n  - 커서의 `next()`.\n
-body	O	5af628cf	- 모든 Handle 은 풀에서 generation 을 검증한다. 해제 뒤 접근은 `INVALID_HANDLE`.\n
-body	O	5b0f1279	- `Code` 는 `include/` 의 공개 에러 enum 이다. 값 0 이 성공이다.\n- 예외, `errno`, 전역 상태는 쓰지 않는다.\n\n```cpp\ntemplate<typename Value, typename Code>\nstruct Result\n{\n    Code  code;   // 0 이면 성공\n    Value value;  // default constructible\n\n    explicit operator bool() const { return code == Code{}; }\n\n    static Result success(Value content) { return Result{Code{}, std::move(content)}; }\n    static Result failure(Code error_code) { return Result{error_code, Value{}}; }\n};\n// Result<Value&, Code> 특수화는 내부적으로 포인터를 보관한다.\n```\n
-body	O	5d87a07f	## 수칙\r\r\n4.14 템플릿은 `core/` 에만 둔다. 그 밖에서는 구체 타입을 쓴다.\r\r\n
-body	O	5d9c30a3	- 모든 인덱스 접근은 범위를 검사하고, 실패는 `Result` 로 돌려준다.\n- `operator[]` 는 `length()` 로 끝나는 for 루프 안에서만 쓴다.\n- 복사는 `Span::copyFrom` 으로만 한다. 목적지가 짧으면 실패를 반환하며, 잘라서 넣지 않는다.\n
-body	O	600c198b	## 수칙\n5.5 에러 코드를 문장으로 바꾸는 일은 presentation 에서만 한다.\n
-body	O	62b091a0	## 수칙\n3.6 16 바이트 이하의 trivially copyable 타입은 값으로, 나머지는 `const&` 로 넘긴다.\n
-body	O	637973a2	C# 등 다른 언어가 C interface 를 마샬링할 수 있게 출력 메모리 배치를 단순하게 둔다.\n\n- 출력 인자·반환 struct 에 `union` 을 쓰지 않는다. 필드를 순차(sequential)로 나열한다. 종류에 따라 쓰는 필드가 다르면 종류 enum 과 필드를 모두 두고 안 쓰는 필드는 0 으로 둔다.\n- `bool` 을 쓰지 않는다. C# 의 `bool` 기본 마샬링은 4 바이트(Win32 BOOL)라 C 의 1 바이트 `bool` 과 크기가 어긋난다.\n- 참·거짓 의미가 필요하면 `typedef int32_t <Organization><Project>Bool;` 을 정의해 그 타입을 쓴다. 값은 0 이 거짓, 1 이 참이다. 맨 `int32_t` 나 `uint8_t` 로 참·거짓을 담지 않는다.\n- 위 항목은 함수 인자, 반환값, 콜백 인자, 그리고 그 안에 든 struct 전부에 적용한다.\n\n```c\ntypedef int32_t AcmeNetBool;\n\ntypedef struct AcmeNetValue\n{\n    int32_t              kind;    /* 어느 필드가 유효한지 */\n    AcmeNetBool       is_set;  /* bool 대신 */\n    int64_t              number;\n    AcmeNetStringView text;\n} AcmeNetValue;                /* union 없음 */\n```\n
-body	O	7a7a76dd	## 수칙\r\r\n4.15 호출자가 없는 메서드를 만들지 않는다. getter/setter 쌍을 만들지 않는다. 값 객체는 public 필드다.\r\r\n
-body	O	81639d02	```cpp\nusing ServerResult = Result<ServerHandle, ErrorCode>;\n\nServerResult createServer(Context& context, const ServerConfiguration& configuration)\n{\n    Handle handle = context.servers.acquire();\n    if (!handle.valid()) { return ServerResult::failure(ErrorCode::POOL_IS_FULL); }\n\n    auto server = context.servers.get(handle);\n    if (!server) { return ServerResult::failure(server.code); }\n\n    ErrorCode code = server.value.initialize(configuration);\n    if (code != ErrorCode::SUCCESS) { return ServerResult::failure(code); }\n\n    return ServerResult::success(handle);\n}\n```\n
-body	O	8492a76d	## 수칙\n6.4 엣지 케이스는 흐름이 삼킨다. 빈 입력·경계값도 같은 루프로 처리되게 설계하고, 조건 분기로 특수 처리하지 않는다.\n
-body	O	8d1003b3	```cpp\nResult<size_t, ErrorCode> read(FileDescriptor file, Span<char> output);\nResult<size_t, ErrorCode> write(SocketDescriptor socket, Span<const char> input);\n```\n
-body	O	8d630cfc	## 수칙\n6.3 한 흐름은 한 맥락만 다룬다. 여러 맥락이 필요하면 상위 맥락 함수가 조합한다.\n
-body	O	90f6fa6c	- 세부 클래스는 멤버를 소유하지 않는다. 멤버는 원래 클래스에 그대로 있고, 세부 클래스는 그 reference 만 든다.\r\r\n- 원래 클래스는 세부 클래스를 만들어 돌려주는 짧은 method (`sink()`, `flow()`) 를 둔다. 호출자는 그 세부 클래스의 method 를 부른다.\r\r\n- 세부 클래스는 쓰는 쪽, 읽는 쪽처럼 한 맥락으로 나눈다. public 메서드 개수 한계는 세부 클래스마다 센다.\r\r\n- 세부 클래스는 원래 클래스보다 오래 살지 않는다. 멤버 변수로 저장하지 않고, 부른 자리에서 쓰고 버린다.\r\r\n\r\r\n```cpp\r\r\ntemplate <typename T>\r\r\nclass Sink                                         // 쓰는 쪽\r\r\n{\r\r\npublic:\r\r\n    Sink(T& value, Subscribers<T>& subscribers);\r\r\n    void update(const T& value);                   // _value 를 바꾸고 구독자에게 알린다\r\r\nprivate:\r\r\n    T&              _value;\r\r\n    Subscribers<T>& _subscribers;\r\r\n};\r\r\n\r\r\ntemplate <typename T>\r\r\nclass Flow                                         // 읽는 쪽\r\r\n{\r\r\npublic:\r\r\n    explicit Flow(Subscribers<T>& subscribers);\r\r\n    void subscribe(void (*callback)(void* user_context, const T& value), void* user_context);\r\r\nprivate:\r\r\n    Subscribers<T>& _subscribers;\r\r\n};\r\r\n\r\r\ntemplate <typename T>\r\r\nclass MutableFlow                                  // 멤버를 소유한다\r\r\n{\r\r\npublic:\r\r\n    Sink<T> sink() { return Sink<T>(_value, _subscribers); }\r\r\n    Flow<T> flow() { return Flow<T>(_subscribers); }\r\r\nprivate:\r\r\n    T              _value;\r\r\n    Subscribers<T> _subscribers;\r\r\n};\r\r\n```\r\r\n
-body	O	933cbc00	```\nsrc/\n    main.cpp\n    core/                   # 자료구조. single header\n    di/                     # 종속성 조립\n    i18n/                   # 언어별 문장\n    presentation/\n        GUI:    view/ viewModel/ service/\n        CLI:    commands/ input/ handler/(main_handler + function별) output/\n        데몬:   context/ handler/(endpoint별 → function별)\n    domain/\n        entity/ usecases/(function별) repository/(module별 인터페이스) states/\n    datalayer/\n        repository/(module별 Native·Mock·Remote 구현) datasource/\n    infra/                  # OS 종속 기능, third party wrapper, logger\n```\n\n| 디렉토리 | 역할 |\n| --- | --- |\n| `core/` | 여러 레이어가 쓰는 자료구조. 의존성 없음 |\n| `di/` | 구현체를 조립하는 유일한 곳. 모든 레이어를 알 수 있음 |\n| `i18n/` | Key 에 대한 언어별 문장 표. 조립하지 않음 |\n| `presentation/view` | 화면 구성. 사용자 입력을 받고 결과를 그림 (GUI) |\n| `presentation/viewModel` | 화면 상태 보관, 문장 조립, 바인딩 데이터 생성 (GUI) |\n| `presentation/service` | 플랫폼 위젯 전용 모듈. 필요한 경우에만 둠 (GUI) |\n| `presentation/commands` | Handler 의 Input·Output 객체 정의 (CLI) |\n| `presentation/input` | 명령줄 문자열을 Input 객체로 파싱 (CLI) |\n| `presentation/handler` | Input 을 usecase 호출로 매핑. 여러 handler 를 `main_handler` 가 조합 (CLI, 데몬) |\n| `presentation/output` | Handler 결과를 사용자에게 보일 문장으로 조립 (CLI) |\n| `presentation/context` | Handler 와 Server Loop 를 보관하는 전역 객체 (데몬) |\n| `domain/entity` | 프로젝트 개념 값 객체. 하드웨어 제약을 모름 |\n| `domain/usecases` | 기능 하나를 함수 하나로 표현. 사용자 기능 단위로 폴더 구성 |\n| `domain/repository` | 저장소 **인터페이스**. 구현은 가지지 않음 |\n| `domain/states` | 여러 viewModel·handler 가 구독하는 앱 전체 상태 |\n| `datalayer/repository` | 저장소 **구현**. Native·Mock·Remote 중 데이터 원천에 따라 선택 |\n| `datalayer/datasource` | 영속 데이터를 읽고 쓰는 원천 (DB, 파일, 네트워크) |\n| `infra` | OS 종속 기능, third party 래퍼, logger, statistics. 레이어 밖에서 전역 관찰용 |\n\n서버와 클라이언트를 함께 만들면 `app/project_name`, `library/server`, `library/client`, `library/protocol` 으로 나눈다.\n
-body	O	959084d4	- 함수: `<Organization><Project>_functionName`. 예: `AcmeNet_createServer`.\r\n- 타입: `<Organization><Project><TypeName>`. 예: `AcmeNetServer`.\r\n- enum 멤버: `<ORGANIZATION>_<PROJECT>_<TYPE>_<MEMBER>`. 예: `ACME_NET_STATUS_SUCCESS`. C enum 은 이름 공간이 없으므로 타입 이름을 넣어 충돌을 막는다.\r\n- 매크로: `<ORGANIZATION>_<PROJECT>_<NAME>`. 예: `ACME_NET_API`.\r\n- 약어 금지는 C interface 에도 적용한다. 예: `Db` 대신 `DATABASE`, `InvalidArg` 대신 `INVALID_ARGUMENT`.\r\n- 조직·프로젝트 이름은 사용자가 정한다. 임의로 정하지 않는다.\r\n- C interface 는 프로젝트의 모든 에러를 덮는 C enum 하나를 가진다.\r\n\r\n```c\r\nServerResult AcmeNet_createServer(GlobalContext* context, const ServerConfiguration configuration);\r\n```\r\n
-body	O	969657b8	## 수칙\n4. 가독성\n
-body	O	975029f0	의료기기 소프트웨어 등급의 C++ 라이브러리를 만들기 위한 규칙이다.\n규칙은 "~한다 / ~하지 않는다" 한 문장으로 쓴다. 코드는 형태를 보여줄 때만 붙인다. 예외는 `예외:` 로만 적는다.\n수칙의 원본은 이 사양 DB 의 수칙 항목(RULE-*) 이다. 절은 상위 항목, 수칙은 하위 항목이다.\n\n모든 규칙은 아래 네 가치 중 하나에 속한다. 규칙끼리 충돌하면 순위가 높은 가치가 이긴다.\n\n| 순위 | 가치 | 한 줄 요약 |\n| --- | --- | --- |\n| 1 | 메모리 예측 가능성 | 할당은 초기화 때 한 번. 런타임 힙 0. 총량은 설정값으로 계산된다. |\n| 2 | 보안 | 외부에서 온 바이트는 검증 함수 하나를 통과해야 내부 타입이 된다. 길이 없는 포인터는 없다. |\n| 3 | 지역성 | 함께 읽는 데이터는 붙여 두고, 인덱스 순서로 순회한다. |\n| 4 | 가독성 | 함수 30줄, 중첩 2단, 인자 4개. 한 줄에 한 동작. |\n\n참조 표준: MISRA C++:2023, CERT C++, IEC 62304. 편차는 프로젝트마다 규칙 번호·이유·완화책으로 기록한다.\n
-body	O	9ae6446d	## 수칙\r\r\n4.13 매크로를 쓰지 않는다. 예외: 플랫폼 선택 `#ifdef`, `#pragma once`.\r\r\n
-body	O	a8fbd9e6	```cpp\r\r\nnamespace {\r\r\nint32_t sumWithOffset(int32_t a, int32_t b, int32_t offset) { return a + b + offset; }\r\r\n}\r\r\n\r\r\nbool A::doSomething(int32_t a, int32_t b)\r\r\n{\r\r\n    _c = sumWithOffset(a, b, _d);\r\r\n    return _c > 10;\r\r\n}\r\r\n```\r\r\n
-body	O	a9827729	- 에러 enum 은 공개 헤더 `include/<library_name>.h` 의 하나뿐이다. `core/`, `domain/`, `data/`, `context/` 는 에러 enum 을 새로 만들지 않는다.\n- 새 에러가 필요하면 공개 enum 끝에 값을 추가한다. 기존 값의 번호는 바꾸지 않는다.\n- 내부 모듈은 공개 enum 값을 그대로 `Result` 와 `failure` 에 넣는다.\n
-body	O	ae6bdfec	## 수칙\n5.3 스택에 담기 큰 결과는 Context 안의 멤버 참조를 `Result<Value&, Code>` 로 돌려준다.\n
-body	O	b0d2a761	빈 입력, 최대 길이, 최대 길이 + 1, 중간 null 바이트, 잘못된 UTF-8.\n
-body	O	b19d9182	## 수칙\n1. 메모리 예측 가능성\n
-body	O	ba195442	```cpp\nvoid doSomething(WorkContext& work, int32_t parameter)\n{\n    Span<char> buffer = work.scratch();  // 초기화 때 확보된 영역\n}\n```\n
-body	O	bd204eb1	## 수칙\r\r\n4.12 삼항 연산자는 값 선택 한 단만 쓴다. 중첩하지 않는다.\r\r\n
-body	O	c29acf52	## 수칙\n1.8 재귀는 쓰지 않는다. 깊이 제한이 있는 명시적 스택(`FixedVector`)으로 바꾼다.\n
-body	O	c39b1670	## 수칙\n3.5 다른 스레드가 쓰는 데이터는 `alignas(64)` 로 캐시 라인을 분리한다.\n
-body	O	c3f906cb	```\ninclude/\n    library_name.h          # C interface\nsrc/\n    library_name.cpp        # C interface ↔ implementation 얇은 어댑터. 도메인 값을 C 구조체로 옮긴다\n    implementation/\n        context/            # C interface 의 Context 정의만. 모든 인스턴스 소유, 연 뒤 접근면, 여러 흐름의 조합\n        core/               # 범용 자료구조와 유틸\n        domain/\n            entity/         # 값 객체. 하드웨어 제약을 모른다. C interface 로 공개되는 핸들 · 결과 값도 여기\n            usecases/       # 사용자 기능 단위. function1/, function2/. 커서에 결과 행을 쓰는 조회 흐름도 여기\n        data/\n            repository/     # 기능 단위 보관 클래스. module1/, module2/\n            states/         # repository 의 상태\n            datasource/     # 메모리 공급. 고정 크기 풀, 커서 풀, 작업 메모리, Local DB, Remote DB\n            infra/          # 플랫폼 구현. class1/backend/, class1/<organization>_class1.h\nsingle_header/              # 스크립트로만 생성\n```\n\n- `context/` 에는 흐름 · 저장소 · 변환 코드를 두지 않는다. 조회 · 비교 같은 흐름은 `domain/usecases/`, 커서 풀 · 작업 메모리는 `data/datasource/`, C 구조체로 옮기는 코드는 `src/` 어댑터에 둔다.\n- 어기는 예: 커서 풀이 `context/` 에 있어서, 커서에 행을 쓰는 조회 흐름이 모두 `context/` 로 끌려 들어간다.\n
-body	O	cbb5a614	## 수칙\n2. 보안\n
-body	O	cedc19ca	## 수칙\r\r\n4.16 `const` 가 기본이다. 바뀌는 변수만 non-const 로 둔다.\r\r\n
-body	O	d997f408	- 초기화 함수는 `create*` (Owner 와 그 Owner 의 연결 풀, 완료 배열) 다. Owner 개수에는 상한이 없고, 연결 수 (`max_clients`) 는 Owner 의 `Configuration` 으로 받아 create 때 전부 확보한다. 버퍼 용량의 최대는 compile time 상수다.\n- 할당은 표준 라이브러리 (`std::vector`, `std::make_unique`) 로만 한다. raw `new` / `delete` / `malloc` 은 쓰지 않는다 (MISRA C++:2023 21.6.2).\n- 초기화 이후 (run 중) `new`, `malloc`, `std::vector` 크기 변경, `std::string` 생성은 없다.\n- 라이브러리는 `-fno-exceptions` 로 빌드하므로 할당 실패는 process 종료다 (`OUT_OF_MEMORY` 를 돌려주지 않는다).\n- 초기화는 단일 스레드에서 한 번 호출한다. 재호출은 `ALREADY_INITIALIZED`.\n- 사용자 정의 `operator new/delete`, placement new, 사용자 정의 할당자는 쓰지 않는다.\n- 위 항목은 MISRA C++:2023 21.6.1 편차로 문서화한다.\n
-body	O	dae00dde	- 전역 상태를 읽거나 쓰지 않는다.\n- 인자는 `const&` 가 기본이다.\n- 상태 변경이 목적인 함수는 그 객체를 유일한 non-const 인자로 받고, 이름이 동사로 그것을 말한다 (`appendToStream(Stream&, Span<const char>)`).\n
-body	O	dc2a5ab3	## 수칙\n7. 디렉토리 구조와 의존 방향\n
-body	O	e2c79e79	| 대상 | 한계 |\n| --- | --- |\n| 함수 본문 | 30 줄 |\n| 중첩 깊이 | 2 단 |\n| 인자 | 4 개 |\n| 파일 | 400 줄 |\n| 한 줄 | 100 자 |\n| 클래스 public 메서드 | 7 개 |\n\n- 예외: `core/` 의 템플릿 헤더는 파일 길이 제한을 두지 않는다.\n
-body	O	e667522e	- 커서는 C interface 의 `open*Cursor` · `fetch*Page` · `closeCursor` 에만 쓴다. 호출자가 결과 개수를 몰라도 고정 크기 버퍼로 받게 하려는 것이다.\n- implementation 안에서는 커서를 쓰지 않는다. 풀 · 표를 index 로 바로 읽는다 (임의 접근). 여러 개를 훑을 때는 index 순서로 훑는다.\n- 이 수칙은 C interface 가 내주는 방식을 정한다. C interface 를 쓰는 쪽(CLI 등)이 단건 조회를 반복하는 것은 위반이 아니다.\n\n```cpp\nstruct RecordPage\n{\n    size_t length;\n    Record elements[MAX_PAGE_ELEMENTS];\n};\n\nResult<CursorHandle, ErrorCode> openCursor(Context& context, const Query& query);\nResult<RecordPage&, ErrorCode>  fetchPage(Context& context, CursorHandle cursor, size_t page_index);\nvoid                            closeCursor(Context& context, CursorHandle cursor);\n```\n
-body	O	e972389a	## 수칙\n6.5 같은 층위의 흐름은 서로 호출하지 않는다.\n
-body	O	f0bea94a	- 알 수 없는 값은 거부한다 (deny-by-default). `-Wswitch -Werror` 로 누락을 컴파일 에러로 만든다.\n\n```cpp\nswitch (kind)\n{\ncase Kind::READ:\ncase Kind::READ_UNTIL:\n    break;\ncase Kind::WRITE:\n    write();\n    break;\n}\n```\n
-body	O	f0d0c47f	- 경계: C interface, 파일, 소켓, DB, 환경 변수.\n- `parse*` 는 `Span<const char>` 를 받아 Entity 를 `Result` 로 돌려준다. 내부 함수는 검증이 끝난 Entity 만 받고 다시 검증하지 않는다.\n\n```cpp\nResult<Configuration, ErrorCode> parseConfiguration(Span<const char> input);                     // 경계: 검증\nResult<ServerHandle, ErrorCode> createServer(Context& context, const Configuration& configuration); // 내부: 검증 없음\n```\n
-body	O	f16dec83	## 수칙\r\r\n4.7 매직 넘버를 쓰지 않는다. `constexpr` 상수에 이름을 붙인다.\r\r\n
-body	O	f1ed8d76	```\ncore      ← infra, domain, datalayer, context, presentation\ndomain    ← presentation, datalayer, context\ndatalayer ← domain/usecases, context\ninfra     ← datalayer, context, presentation (Socket, CLI 같은 presentation 용 third party 만)\ncontext   ← C interface 어댑터 (src/)\ni18n      ← presentation\n모두      ← di\n```\n\n- `context/` 는 implementation 안의 어느 폴더도 들지 않는다. `context/` 를 쓰는 것은 C interface 어댑터뿐이다.\n- 같은 층위의 두 흐름이 함께 필요하거나, 흐름이 infra 를 직접 들어야 하면 `context/` 가 조합하고 흐름에는 결과를 인자로 넘긴다.\n
-body	O	f618c7f5	```\n-Wall -Wextra -Werror -Wconversion -Wsign-compare -Wshadow -Wswitch\n-fno-exceptions -fno-rtti -fstack-protector-strong -D_FORTIFY_SOURCE=2\n```\n\n- 테스트 빌드는 ASan + UBSan 을 켠다. `parse*` 함수는 fuzz 테스트를 붙인다.\n
-body	O	f8a460e7	## 수칙\r\r\n4.5 bool 인자를 쓰지 않는다. `enum class` 로 바꾼다. 출력 인자를 쓰지 않는다. 리턴값으로 돌려준다.\r\r\n
-body	O	fce0b76f	- Release 준비 단계에서만 "왜" 를 설명하는 주석을 추가한다. "무엇" 은 이름과 함수 분리로 드러낸다.\r\r\n- `TODO` 를 남기지 않는다. 이슈로 기록한다.\r\r\n- 이 문서의 코드 예시 주석은 설명용이며 소스에 옮기지 않는다.\r\r\n
-body	O	ff150583	- Windows(MSVC), Linux(GCC), macOS(Clang), Android(NDK Clang + libc++) 가 모두 지원하는 가장 낮은 표준이다.\n- C++14 이하는 쓰지 않는다. `if constexpr`, `inline` 변수, `[[nodiscard]]` 가 필요하다.\n- C++20 이상 기능은 쓰지 않는다.\n- CMake 는 `CMAKE_CXX_STANDARD 17`, `CMAKE_CXX_STANDARD_REQUIRED ON`, `CMAKE_CXX_EXTENSIONS OFF` 로 설정한다.\n- 네 플랫폼 툴체인 모두에서 빌드가 통과해야 PR 을 병합한다.\n
+body	O	066a434f	## 수칙\n3.5 다른 스레드가 쓰는 데이터는 `alignas(64)` 로 캐시 라인을 분리한다.\n
+body	O	08377d73	## 수칙\r\r\n4.3 한 줄에 한 동작이다. 조건식 안에서 대입·호출을 하지 않는다. 선언·계산·호출을 한 줄에 섞지 않는다.\r\r\n
+body	O	0a688ef8	- 에러 enum 은 공개 헤더 `include/<library_name>.h` 의 하나뿐이다. `core/`, `domain/`, `data/`, `context/` 는 에러 enum 을 새로 만들지 않는다.\n- 새 에러가 필요하면 공개 enum 끝에 값을 추가한다. 기존 값의 번호는 바꾸지 않는다.\n- 내부 모듈은 공개 enum 값을 그대로 `Result` 와 `failure` 에 넣는다.\n
+body	O	0a7b0ad8	- Windows(MSVC), Linux(GCC), macOS(Clang), Android(NDK Clang + libc++) 가 모두 지원하는 가장 낮은 표준이다.\n- C++14 이하는 쓰지 않는다. `if constexpr`, `inline` 변수, `[[nodiscard]]` 가 필요하다.\n- C++20 이상 기능은 쓰지 않는다.\n- CMake 는 `CMAKE_CXX_STANDARD 17`, `CMAKE_CXX_STANDARD_REQUIRED ON`, `CMAKE_CXX_EXTENSIONS OFF` 로 설정한다.\n- 네 플랫폼 툴체인 모두에서 빌드가 통과해야 PR 을 병합한다.\n
+body	O	0dc0db1f	- 헤더: `public` → `private`.\r\r\n- 소스: 익명 namespace 에 보조 함수 선언 → 공개 함수 정의 → 보조 함수 정의.\r\r\n
+body	O	10d55412	## 수칙\r\r\n4.15 호출자가 없는 메서드를 만들지 않는다. getter/setter 쌍을 만들지 않는다. 값 객체는 public 필드다.\r\r\n
+body	O	11668ff6	## 수칙\n3. 지역성\n
+body	O	12ce8746	- 통상적으로 이해되는 동사를 쓴다. 예: `acquire`, `release`, `open`, `fetch`, `append`, `parse`.\n- `getXxx`, `doXxx`, `handleXxx` 처럼 동작을 드러내지 않는 이름을 쓰지 않는다.\n- 멤버 변수에 접근하는 method 는 꼭 필요한 경우에만 만든다. 다른 layer 가 값을 읽어야 하고 동작으로 대신할 수 없을 때가 필요한 경우다.\n- 예외: 아래 이름은 동사가 아니어도 된다.\n  - 속성 돌려주기: 그 값을 보는 일 자체가 조회 기능이면 명사를 쓴다. 예: `reader()`, `length()`, `capacity()`. struct 가 아닌 자료구조 class 에서 쓰고, 멤버 변수를 그대로 드러내는 용도로는 권하지 않는다.\n  - 타입 변환: `to` + 타입 이름. 예: `toMilliseconds`.\n  - 색인: 위치 · 번호를 찾아 돌려주는 `...Of`. 예: `indexOf`, `offsetOf`.\n  - 커서의 `next()`.\n
+body	O	136bbb56	- 경계: C interface, 파일, 소켓, DB, 환경 변수.\n- `parse*` 는 `Span<const char>` 를 받아 Entity 를 `Result` 로 돌려준다. 내부 함수는 검증이 끝난 Entity 만 받고 다시 검증하지 않는다.\n\n```cpp\nResult<Configuration, ErrorCode> parseConfiguration(Span<const char> input);                     // 경계: 검증\nResult<ServerHandle, ErrorCode> createServer(Context& context, const Configuration& configuration); // 내부: 검증 없음\n```\n
+body	O	137c59f4	## 수칙\n1. 메모리 예측 가능성\n
+body	O	15bb95b2	PR 마다 아래 열여섯 가지에 모두 "예" 여야 한다.\n\n1. 초기화 함수 밖에 힙 할당이 없다.\n2. 모든 Handle 접근이 generation 을 검증한다.\n3. 외부 입력은 `parse*` 하나를 지나고, 내부에서 다시 검증하지 않는다.\n4. 길이 없는 포인터 인자가 없다.\n5. 금지 함수(`strcpy`, `sprintf`, `atoi`, 직접 `memcpy` 등)가 없다.\n6. 정수 덧셈·곱셈이 `checked*` 를 쓰거나 넘칠 수 없음이 자명하다.\n7. 새 struct 는 `static_assert(sizeof)` 가 있고 hot/cold 가 나뉘어 있다.\n8. 함수 30줄, 중첩 2단, 인자 4개를 넘지 않는다.\n9. `switch` 에 `default` 가 없고 모든 enum 멤버가 있다.\n10. 새 `parse*` 함수는 빈 입력, 최대 길이, 최대 길이 + 1, 중간 null 바이트, 잘못된 UTF-8 다섯 입력을 테스트한다.\n11. 새 C interface 함수는 `<Organization><Project>_` 접두사를 가진다.\n12. 추가된 소스 줄에 주석이 없다. Release 준비 PR 은 예외다.\n13. 새 method 는 동사로 시작하고, 멤버 접근 method 는 필요한 이유가 PR 에 적혀 있다. `core/` 는 예외다.\n14. `core/` 파일이 도메인 용어나 `<Organization><Project>*` 레코드 타입을 담지 않는다.\n15. 새 에러 enum 이 없고, 모든 에러는 `include/<library_name>.h` 의 값을 쓴다.\n16. C interface 의 인자·반환값·struct 에 `union` 이 없고, 참·거짓 값은 `bool` 이 아니라 `<Organization><Project>Bool` (`int32_t` typedef) 이다.\n
+body	O	16b77c8f	## 수칙\r\r\n4.6 `auto` 는 우변에 타입이 보일 때(생성자 호출, `Result` 반환)만 쓴다. 숫자·bool 은 타입을 적는다.\r\r\n
+body	O	1b92b690	## 수칙\n5.5 에러 코드를 문장으로 바꾸는 일은 presentation 에서만 한다.\n
+body	O	1c8365d5	- 로그·에러 메시지에 넣지 않는다.\n- 비교는 상수 시간 `constantTimeEquals` 를 쓴다.\n
+body	O	1c8ea96d	C++ 에서 `std::unique_ptr` 을 `std::move` 로 넘기는 자리는 C 에서 다음 꼴로 쓴다. handle 이 `{ index, generation, type }` 값이라 소유권이 넘어간 뒤에도 호출자 손에 멀쩡해 보이는 복사본이 남는데, 코드만 봐서는 어느 호출에서 죽었는지 알 수 없다. 시그니처의 포인터 유무가 곧 이동 여부가 되게 한다.\n\n1. 소유권을 가져가는 함수는 handle 을 **포인터로, 마지막 인자** 에 받는다. 소유권을 가져가지 않는 함수는 handle 을 값으로 받는다.\n2. 성공하면 `*handle` 을 0 으로 지운다. 실패하면 손대지 않는다 (호출자가 그대로 다시 쓰거나 release 한다).\n3. 0 handle 은 어떤 함수에서도 `INVALID_HANDLE` 이다. handle 의 `type` 0 은 NONE 으로 예약한다.\n4. 가져간 실체는 새 소유자를 통해서만 본다. 옛 handle 로 조회하는 함수를 두지 않는다.\n5. 라이브러리는 그 포인터를 호출 동안만 쓰고 보관하지 않는다 (2.5 유지).\n\n지키는 예\n```c\n/* 소유권을 가져간다 — 포인터, 마지막 인자. 성공하면 *frame == 0 */\nAcmeImageResult Acme_appendImage(AcmeContext* context, AcmeRequest request, AcmeCineFrame* frame);\n/* 가져가지 않는다 — 값 */\nAcmeFrameInfoResult Acme_getCineFrameInfo(AcmeContext* context, AcmeCineFrame frame);\n\nAcmeCineFrame frame = Acme_createCineFrame(context, 33.3).frame;\nAcmeImageResult image = Acme_appendImage(context, request, &frame);   /* 여기서 죽는다 */\nAcme_releaseCineFrame(context, frame);                                 /* frame 은 0 — INVALID_HANDLE */\n```\n\n어기는 예\n```c\nAcmeImageResult Acme_appendImage(AcmeContext* context, AcmeRequest request, AcmeCineFrame frame);   /* 값으로 받아 가져감 — 읽는 사람이 모른다 */\nAcmeFrameInfoResult Acme_getFrameInfo(AcmeContext* context, AcmeCineFrame sealed_frame);         /* 옛 handle 로 조회 */\n```\n\n예외: 값을 **복사** 해 넣는 함수(예: Queue 의 push)는 가져가지 않으므로 값으로 받는다.\n
+body	O	203f2357	```\ninclude/\n    library_name.h          # C interface\nsrc/\n    library_name.cpp        # C interface ↔ implementation 얇은 어댑터. 도메인 값을 C 구조체로 옮긴다\n    implementation/\n        context/            # C interface 의 Context 정의만. 모든 인스턴스 소유, 연 뒤 접근면, 여러 흐름의 조합\n        core/               # 범용 자료구조와 유틸\n        domain/\n            entity/         # 값 객체. 하드웨어 제약을 모른다. C interface 로 공개되는 핸들 · 결과 값도 여기\n            usecases/       # 사용자 기능 단위. function1/, function2/. 커서에 결과 행을 쓰는 조회 흐름도 여기\n        data/\n            repository/     # 기능 단위 보관 클래스. module1/, module2/\n            states/         # repository 의 상태\n            datasource/     # 메모리 공급. 고정 크기 풀, 커서 풀, 작업 메모리, Local DB, Remote DB\n            infra/          # 플랫폼 구현. class1/backend/, class1/<organization>_class1.h\nsingle_header/              # 스크립트로만 생성\n```\n\n- `context/` 에는 흐름 · 저장소 · 변환 코드를 두지 않는다. 조회 · 비교 같은 흐름은 `domain/usecases/`, 커서 풀 · 작업 메모리는 `data/datasource/`, C 구조체로 옮기는 코드는 `src/` 어댑터에 둔다.\n- 어기는 예: 커서 풀이 `context/` 에 있어서, 커서에 행을 쓰는 조회 흐름이 모두 `context/` 로 끌려 들어간다.\n
+body	O	21373a2a	## 수칙\r\r\n4.12 삼항 연산자는 값 선택 한 단만 쓴다. 중첩하지 않는다.\r\r\n
+body	O	22532d44	## 수칙\r\r\n4.13 매크로를 쓰지 않는다. 예외: 플랫폼 선택 `#ifdef`, `#pragma once`.\r\r\n
+body	O	23165054	- 보이는 모든 문장은 Key 를 가진다. Key → 언어별 Value 는 `i18n/` 에 둔다.\n- 문장 조립은 View·ViewModel 에서만 한다. domain·datalayer 는 문장을 만들지 않는다.\n- 치환은 `core/format` 의 `{0}` 자리표시자로 한다. `printf` 포맷 문자열을 번역 데이터로 쓰지 않는다.\n\n```cpp\nvoid SomeViewModel::setLabel(StringView parameter)\n{\n    StringView format = _locale.get(Key::WARNING_MESSAGE_1, currentLanguage());\n    formatInto(_label, format, parameter);  // FixedString<256> _label\n}\n```\n
+body	O	2540c12f	## 수칙\n2. 보안\n
+body	O	286587c1	## 수칙\n7. 디렉토리 구조와 의존 방향\n
+body	O	2c53163c	```cpp\nResult<size_t, ErrorCode> read(FileDescriptor file, Span<char> output);\nResult<size_t, ErrorCode> write(SocketDescriptor socket, Span<const char> input);\n```\n
+body	O	2d87a753	- 모든 인덱스 접근은 범위를 검사하고, 실패는 `Result` 로 돌려준다.\n- `operator[]` 는 `length()` 로 끝나는 for 루프 안에서만 쓴다.\n- 복사는 `Span::copyFrom` 으로만 한다. 목적지가 짧으면 실패를 반환하며, 잘라서 넣지 않는다.\n
+body	O	32c3d72a	C# 등 다른 언어가 C interface 를 마샬링할 수 있게 출력 메모리 배치를 단순하게 둔다.\n\n- 출력 인자·반환 struct 에 `union` 을 쓰지 않는다. 필드를 순차(sequential)로 나열한다. 종류에 따라 쓰는 필드가 다르면 종류 enum 과 필드를 모두 두고 안 쓰는 필드는 0 으로 둔다.\n- `bool` 을 쓰지 않는다. C# 의 `bool` 기본 마샬링은 4 바이트(Win32 BOOL)라 C 의 1 바이트 `bool` 과 크기가 어긋난다.\n- 참·거짓 의미가 필요하면 `typedef int32_t <Organization><Project>Bool;` 을 정의해 그 타입을 쓴다. 값은 0 이 거짓, 1 이 참이다. 맨 `int32_t` 나 `uint8_t` 로 참·거짓을 담지 않는다.\n- 위 항목은 함수 인자, 반환값, 콜백 인자, 그리고 그 안에 든 struct 전부에 적용한다.\n\n```c\ntypedef int32_t AcmeNetBool;\n\ntypedef struct AcmeNetValue\n{\n    int32_t              kind;    /* 어느 필드가 유효한지 */\n    AcmeNetBool       is_set;  /* bool 대신 */\n    int64_t              number;\n    AcmeNetStringView text;\n} AcmeNetValue;                /* union 없음 */\n```\n
+body	O	379c7cab	## 수칙\r\r\n4.16 `const` 가 기본이다. 바뀌는 변수만 non-const 로 둔다.\r\r\n
+body	O	37d708bf	- 연결 리스트, 포인터 트리, 노드 할당 map 금지. 트리는 `parent_index`, `first_child_index` 배열로 표현한다.\n
+body	O	394ac4f7	빈 입력, 최대 길이, 최대 길이 + 1, 중간 null 바이트, 잘못된 UTF-8.\n
+body	O	3a5d2af6	## 수칙\n1.8 재귀는 쓰지 않는다. 깊이 제한이 있는 명시적 스택(`FixedVector`)으로 바꾼다.\n
+body	O	40baa5f2	```cpp\nusing ServerResult = Result<ServerHandle, ErrorCode>;\n\nServerResult createServer(Context& context, const ServerConfiguration& configuration)\n{\n    Handle handle = context.servers.acquire();\n    if (!handle.valid()) { return ServerResult::failure(ErrorCode::POOL_IS_FULL); }\n\n    auto server = context.servers.get(handle);\n    if (!server) { return ServerResult::failure(server.code); }\n\n    ErrorCode code = server.value.initialize(configuration);\n    if (code != ErrorCode::SUCCESS) { return ServerResult::failure(code); }\n\n    return ServerResult::success(handle);\n}\n```\n
+body	O	46068aa6	- `Code` 는 `include/` 의 공개 에러 enum 이다. 값 0 이 성공이다.\n- 예외, `errno`, 전역 상태는 쓰지 않는다.\n\n```cpp\ntemplate<typename Value, typename Code>\nstruct Result\n{\n    Code  code;   // 0 이면 성공\n    Value value;  // default constructible\n\n    explicit operator bool() const { return code == Code{}; }\n\n    static Result success(Value content) { return Result{Code{}, std::move(content)}; }\n    static Result failure(Code error_code) { return Result{error_code, Value{}}; }\n};\n// Result<Value&, Code> 특수화는 내부적으로 포인터를 보관한다.\n```\n
+body	O	469f2b6a	- 커서는 C interface 의 `open*Cursor` · `fetch*Page` · `closeCursor` 에만 쓴다. 호출자가 결과 개수를 몰라도 고정 크기 버퍼로 받게 하려는 것이다.\n- implementation 안에서는 커서를 쓰지 않는다. 풀 · 표를 index 로 바로 읽는다 (임의 접근). 여러 개를 훑을 때는 index 순서로 훑는다.\n- 이 수칙은 C interface 가 내주는 방식을 정한다. C interface 를 쓰는 쪽(CLI 등)이 단건 조회를 반복하는 것은 위반이 아니다.\n\n```cpp\nstruct RecordPage\n{\n    size_t length;\n    Record elements[MAX_PAGE_ELEMENTS];\n};\n\nResult<CursorHandle, ErrorCode> openCursor(Context& context, const Query& query);\nResult<RecordPage&, ErrorCode>  fetchPage(Context& context, CursorHandle cursor, size_t page_index);\nvoid                            closeCursor(Context& context, CursorHandle cursor);\n```\n
+body	O	49550d42	- Handle 목록을 따라가며 흩어진 슬롯을 읽지 않는다.\n- 다른 풀의 데이터가 필요하면 index 를 먼저 모으고(1차 패스) 그 풀을 순서대로 읽는다(2차 패스).\n
+body	O	4b7222e8	```cpp\nstruct Handle\n{\n    uint32_t index;       // INVALID_INDEX 면 비어 있음\n    uint16_t generation;\n    uint16_t type;        // 어떤 풀의 Handle 인지\n};\ntemplate<uint16_t Type> struct TypedHandle : Handle { TypedHandle() : Handle{INVALID_INDEX, 0, Type} {} };\n\nusing ImageHandle = TypedHandle<HandleType::IMAGE>;  // entity/ 에서 정의\n\nstruct Entity\n{\n    ImageHandle                       image;      // 대용량 데이터\n    FixedVector<OtherEntity, MAX_CHILDREN> children; // 직접 보유\n    FixedVector<OtherEntityHandle, MAX_LINKS> links; // 참조만 보유\n};\n```\n
+body	O	4e5cf82a	| 대상 | 한계 |\n| --- | --- |\n| 함수 본문 | 30 줄 |\n| 중첩 깊이 | 2 단 |\n| 인자 | 4 개 |\n| 파일 | 400 줄 |\n| 한 줄 | 100 자 |\n| 클래스 public 메서드 | 7 개 |\n\n- 예외: `core/` 의 템플릿 헤더는 파일 길이 제한을 두지 않는다.\n
+body	O	4f7c9294	```cpp\nstruct Context\n{\n    explicit Context(const Configuration& configuration); // 모든 풀을 여기서 확보\n    ~Context() = default;                                  // 멤버 소멸로 전부 해제\n\n    LazyPool<Server> servers;\n    LazyPool<Client> clients;\n};\n```\n\n- 사용 순서: `createContext → create*(context, configuration) → run → release* → releaseContext`.\n- `release*` 를 호출하지 않아도 `releaseContext` 하나로 누수 없이 정리된다.\n
+body	O	62b2137f	## 수칙\n4. 가독성\n
+body	O	639490cd	| 대상 | 규칙 | 예 |\r\r\n| --- | --- | --- |\r\r\n| 함수 | 동사 + 목적어, camelCase | `openCursor`, `parseConfiguration` |\r\r\n| bool | `is` / `has` / `can` | `isValid`, `hasChildren` |\r\r\n| 변수 | snake_case, 단위 포함 | `timeout_milliseconds`, `buffer_length` |\r\r\n| private 멤버 | `_` 접두 | `_free_count` |\r\r\n| 상수, enum 멤버 | UPPER_SNAKE | `MAX_SESSIONS`, `POOL_IS_FULL` |\r\r\n| 클래스, enum, 타입 | PascalCase | `LazyPool`, `ErrorCode` |\r\r\n| 파일 | `<organization>_snake_case(클래스명).h` / `.cpp`, 파일 하나 = 클래스 하나. 조직 이름 접두사로 다른 라이브러리 헤더와 겹치지 않게 한다 | `acme_lazy_pool.h`, `acme_lazy_pool.cpp` |\r\r\n| namespace | `<organization>::<project>::implementation`. 예: `acme::net::implementation`. 조직·프로젝트 이름은 사용자가 정한다. | |\r\r\n\r\r\n- 약어를 쓰지 않는다. 이름은 네 단어 이하.\r\r\n
+body	O	639b7698	- 모든 Handle 은 풀에서 generation 을 검증한다. 해제 뒤 접근은 `INVALID_HANDLE`.\n
+body	O	66c2e112	```cpp\nauto opened = openCursor(context, query);\nauto page   = fetchPage(context, opened.value, 0);  // CursorHandle 없이는 호출 불가\ncloseCursor(context, opened.value);\n```\n
+body	O	6a3526b2	```cpp\nvoid doSomething(WorkContext& work, int32_t parameter)\n{\n    Span<char> buffer = work.scratch();  // 초기화 때 확보된 영역\n}\n```\n
+body	O	6bca51a0	## 수칙\n6.3 한 흐름은 한 맥락만 다룬다. 여러 맥락이 필요하면 상위 맥락 함수가 조합한다.\n
+body	O	7421a185	## 수칙\n1.9 모든 변수는 선언과 동시에 `{}` 로 초기화한다.\n
+body	O	7538aea1	## 수칙\n5. 에러 처리\n
+body	O	78821542	## 수칙\r\r\n4.11 부정 조건을 피한다. `if (!isEmpty())` 대신 `if (hasItems())`. 이중 부정 금지.\r\r\n
+body	O	7f421b91	## 수칙\r\r\n4.5 bool 인자를 쓰지 않는다. `enum class` 로 바꾼다. 출력 인자를 쓰지 않는다. 리턴값으로 돌려준다.\r\r\n
+body	O	824c94e9	- Release 준비 단계에서만 "왜" 를 설명하는 주석을 추가한다. "무엇" 은 이름과 함수 분리로 드러낸다.\r\r\n- `TODO` 를 남기지 않는다. 이슈로 기록한다.\r\r\n- 이 문서의 코드 예시 주석은 설명용이며 소스에 옮기지 않는다.\r\r\n
+body	O	85f145f3	```cpp\nstruct Entity\n{\n    FixedString<32> name;\n    FixedString<64> id;\n    int32_t         value;\n};\nstatic_assert(sizeof(Entity) <= 1024, "Entity must fit on the stack");\n```\n
+body	O	872853d3	- 초기화 함수는 `create*` (Owner 와 그 Owner 의 연결 풀, 완료 배열) 다. Owner 개수에는 상한이 없고, 연결 수 (`max_clients`) 는 Owner 의 `Configuration` 으로 받아 create 때 전부 확보한다. 버퍼 용량의 최대는 compile time 상수다.\n- 할당은 표준 라이브러리 (`std::vector`, `std::make_unique`) 로만 한다. raw `new` / `delete` / `malloc` 은 쓰지 않는다 (MISRA C++:2023 21.6.2).\n- 초기화 이후 (run 중) `new`, `malloc`, `std::vector` 크기 변경, `std::string` 생성은 없다.\n- 라이브러리는 `-fno-exceptions` 로 빌드하므로 할당 실패는 process 종료다 (`OUT_OF_MEMORY` 를 돌려주지 않는다).\n- 초기화는 단일 스레드에서 한 번 호출한다. 재호출은 `ALREADY_INITIALIZED`.\n- 사용자 정의 `operator new/delete`, placement new, 사용자 정의 할당자는 쓰지 않는다.\n- 위 항목은 MISRA C++:2023 21.6.1 편차로 문서화한다.\n
+body	O	8778fb0f	```\nsrc/\n    main.cpp\n    core/                   # 자료구조. single header\n    di/                     # 종속성 조립\n    i18n/                   # 언어별 문장\n    presentation/\n        GUI:    view/ viewModel/ service/\n        CLI:    commands/ input/ handler/(main_handler + function별) output/\n        데몬:   context/ handler/(endpoint별 → function별)\n    domain/\n        entity/ usecases/(function별) repository/(module별 인터페이스) states/\n    datalayer/\n        repository/(module별 Native·Mock·Remote 구현) datasource/\n    infra/                  # OS 종속 기능, third party wrapper, logger\n```\n\n| 디렉토리 | 역할 |\n| --- | --- |\n| `core/` | 여러 레이어가 쓰는 자료구조. 의존성 없음 |\n| `di/` | 구현체를 조립하는 유일한 곳. 모든 레이어를 알 수 있음 |\n| `i18n/` | Key 에 대한 언어별 문장 표. 조립하지 않음 |\n| `presentation/view` | 화면 구성. 사용자 입력을 받고 결과를 그림 (GUI) |\n| `presentation/viewModel` | 화면 상태 보관, 문장 조립, 바인딩 데이터 생성 (GUI) |\n| `presentation/service` | 플랫폼 위젯 전용 모듈. 필요한 경우에만 둠 (GUI) |\n| `presentation/commands` | Handler 의 Input·Output 객체 정의 (CLI) |\n| `presentation/input` | 명령줄 문자열을 Input 객체로 파싱 (CLI) |\n| `presentation/handler` | Input 을 usecase 호출로 매핑. 여러 handler 를 `main_handler` 가 조합 (CLI, 데몬) |\n| `presentation/output` | Handler 결과를 사용자에게 보일 문장으로 조립 (CLI) |\n| `presentation/context` | Handler 와 Server Loop 를 보관하는 전역 객체 (데몬) |\n| `domain/entity` | 프로젝트 개념 값 객체. 하드웨어 제약을 모름 |\n| `domain/usecases` | 기능 하나를 함수 하나로 표현. 사용자 기능 단위로 폴더 구성 |\n| `domain/repository` | 저장소 **인터페이스**. 구현은 가지지 않음 |\n| `domain/states` | 여러 viewModel·handler 가 구독하는 앱 전체 상태 |\n| `datalayer/repository` | 저장소 **구현**. Native·Mock·Remote 중 데이터 원천에 따라 선택 |\n| `datalayer/datasource` | 영속 데이터를 읽고 쓰는 원천 (DB, 파일, 네트워크) |\n| `infra` | OS 종속 기능, third party 래퍼, logger, statistics. 레이어 밖에서 전역 관찰용 |\n\n서버와 클라이언트를 함께 만들면 `app/project_name`, `library/server`, `library/client`, `library/protocol` 으로 나눈다.\n
+body	O	89480364	- 비소유 참조는 `&` 멤버로 두고 생성자에서 받는다.\n- 기본 생성자가 필요하면 메서드 인자로 매번 받는다.\n- 예외: 스트림 I/O(`Span` 내부), `core/` 자료구조 내부, C interface.\n\n```cpp\nclass Some\n{\npublic:\n    explicit Some(Dependency& dependency) : _dependency(dependency) {}\nprivate:\n    Dependency& _dependency;\n};\n```\n
+body	O	8c5d9c37	- `core/` 는 도메인 용어(그 프로젝트가 다루는 업무 개념)와 도메인 레코드를 담지 않는다.\n- `core/` 는 C 인터페이스의 레코드 타입(`<Organization><Project>*` 구조체)을 담지 않는다. 에러 enum 만 `include/` 에서 가져온다.\n- 도메인 레코드를 C 구조체로 바꾸는 코드는 `src/` 어댑터에 둔다. 커서 풀은 `data/datasource/`, 커서에 결과 행을 쓰는 코드는 `domain/usecases/` 에 둔다.\n- `core/` 는 `include/<library_name>.h` 의 에러 enum 외에는 프로젝트 고유 헤더에 의존하지 않는다.\n
+body	O	90e9775e	## 수칙\r\r\n4.14 템플릿은 `core/` 에만 둔다. 그 밖에서는 구체 타입을 쓴다.\r\r\n
+body	O	945321c7	## 수칙\n5.3 스택에 담기 큰 결과는 Context 안의 멤버 참조를 `Result<Value&, Code>` 로 돌려준다.\n
+body	O	9517db7e	## 수칙\n6.4 엣지 케이스는 흐름이 삼킨다. 빈 입력·경계값도 같은 루프로 처리되게 설계하고, 조건 분기로 특수 처리하지 않는다.\n
+body	O	9c2af7e1	- 크기·길이·오프셋은 `size_t`.\n- 외부에서 온 정수는 `[min, max]` 검사 후 사용한다. enum 으로 바꿀 때도 같다.\n- 덧셈·곱셈은 `core/<organization>_checked.h` 의 `checkedAdd`, `checkedMultiply` 를 쓴다. 넘치면 `Result` 실패.\n- 부호가 다른 비교는 컴파일 에러로 막는다 (`-Wsign-compare -Werror`).\n
+body	O	9df3b837	- 경계에서는 `Span<const char>` 로 받고 UTF-8 유효성을 검사한다.\n- `FixedString` 은 항상 null 종료를 보장하고 `assign` 실패 시 비운다.\n
+body	O	a85736ad	- 알 수 없는 값은 거부한다 (deny-by-default). `-Wswitch -Werror` 로 누락을 컴파일 에러로 만든다.\n\n```cpp\nswitch (kind)\n{\ncase Kind::READ:\ncase Kind::READ_UNTIL:\n    break;\ncase Kind::WRITE:\n    write();\n    break;\n}\n```\n
+body	O	a97f639c	## 수칙\n6.5 같은 층위의 흐름은 서로 호출하지 않는다.\n
+body	O	ad0c7901	| 용도 | 사용 | 쓰지 않음 |\n| --- | --- | --- |\n| 가변 길이 배열 | `FixedVector<T, N>` | `std::vector` (초기화 함수 제외) |\n| 문자열 | `FixedString<N>`, `StringView` | `std::string` |\n| 키 조회 | `FixedMap<K, V, N>` (정렬 배열 + 이진 탐색) | `std::map`, `std::unordered_map` |\n| 바이트 범위 | `Span<T>` = `{pointer, length}` | `T*` 단독 |\n
+body	O	b125445f	```cpp\nstruct Record\n{\n    uint64_t id;\n    uint32_t count;\n    uint16_t flags;\n    uint8_t  kind;\n    uint8_t  _padding;\n};\nstatic_assert(sizeof(Record) == 16, "unexpected padding");\n```\n
+body	O	b38ce056	- 전역 상태를 읽거나 쓰지 않는다.\n- 인자는 `const&` 가 기본이다.\n- 상태 변경이 목적인 함수는 그 객체를 유일한 non-const 인자로 받고, 이름이 동사로 그것을 말한다 (`appendToStream(Stream&, Span<const char>)`).\n
+body	O	b5b50a5a	| 쓰지 않음 | 대신 |\n| --- | --- |\n| `strcpy` `strcat` `strlen` `gets` `sprintf` | `FixedString::assign/append`, `Span.length` |\n| 비상수 포맷의 `printf` 계열 | 상수 포맷 + `core/format` (`{0}` 치환) |\n| `atoi` `atol` `strtol` | `core/parseInteger` → `Result` |\n| 직접 `memcpy` `memset` | `Span::copyFrom`, `Span::fill` |\n| `new` `delete` `malloc` `free` | 초기화 함수 안의 `std::vector`, `unique_ptr` |\n| C 스타일 캐스트, `reinterpret_cast` | `static_cast`. `reinterpret_cast` 는 `infra/*/backend` 만 |\n| `rand` | `infra/random` (OS CSPRNG) |\n
+body	O	b8f06ae8	- 함수: `<Organization><Project>_functionName`. 예: `AcmeNet_createServer`.\r\n- 타입: `<Organization><Project><TypeName>`. 예: `AcmeNetServer`.\r\n- enum 멤버: `<ORGANIZATION>_<PROJECT>_<TYPE>_<MEMBER>`. 예: `ACME_NET_STATUS_SUCCESS`. C enum 은 이름 공간이 없으므로 타입 이름을 넣어 충돌을 막는다.\r\n- 매크로: `<ORGANIZATION>_<PROJECT>_<NAME>`. 예: `ACME_NET_API`.\r\n- 약어 금지는 C interface 에도 적용한다. 예: `Db` 대신 `DATABASE`, `InvalidArg` 대신 `INVALID_ARGUMENT`.\r\n- 조직·프로젝트 이름은 사용자가 정한다. 임의로 정하지 않는다.\r\n- C interface 는 프로젝트의 모든 에러를 덮는 C enum 하나를 가진다.\r\n\r\n```c\r\nServerResult AcmeNet_createServer(GlobalContext* context, const ServerConfiguration configuration);\r\n```\r\n
+body	O	b8f486cb	```cpp\r\r\nnamespace {\r\r\nint32_t sumWithOffset(int32_t a, int32_t b, int32_t offset) { return a + b + offset; }\r\r\n}\r\r\n\r\r\nbool A::doSomething(int32_t a, int32_t b)\r\r\n{\r\r\n    _c = sumWithOffset(a, b, _d);\r\r\n    return _c > 10;\r\r\n}\r\r\n```\r\r\n
+body	O	bdf0a775	```cpp\n#ifdef _WIN32\n#include "backend/acme_windows_socket.h"\n#else\n#include "backend/acme_posix_socket.h"\n#endif\n\nclass Socket\n{\npublic:\n    Result<size_t, ErrorCode> read(Span<char> output);\nprivate:\n    SocketPayload _payload;  // backend 에서 정의\n};\n```\n
+body	O	be632cd8	의료기기 소프트웨어 등급의 C++ 라이브러리를 만들기 위한 규칙이다.\n규칙은 "~한다 / ~하지 않는다" 한 문장으로 쓴다. 코드는 형태를 보여줄 때만 붙인다. 예외는 `예외:` 로만 적는다.\n수칙의 원본은 이 사양 DB 의 수칙 항목(RULE-*) 이다. 절은 상위 항목, 수칙은 하위 항목이다.\n\n모든 규칙은 아래 네 가치 중 하나에 속한다. 규칙끼리 충돌하면 순위가 높은 가치가 이긴다.\n\n| 순위 | 가치 | 한 줄 요약 |\n| --- | --- | --- |\n| 1 | 메모리 예측 가능성 | 할당은 초기화 때 한 번. 런타임 힙 0. 총량은 설정값으로 계산된다. |\n| 2 | 보안 | 외부에서 온 바이트는 검증 함수 하나를 통과해야 내부 타입이 된다. 길이 없는 포인터는 없다. |\n| 3 | 지역성 | 함께 읽는 데이터는 붙여 두고, 인덱스 순서로 순회한다. |\n| 4 | 가독성 | 함수 30줄, 중첩 2단, 인자 4개. 한 줄에 한 동작. |\n\n참조 표준: MISRA C++:2023, CERT C++, IEC 62304. 편차는 프로젝트마다 규칙 번호·이유·완화책으로 기록한다.\n
+body	O	ccdfaa19	## 수칙\r\r\n4.7 매직 넘버를 쓰지 않는다. `constexpr` 상수에 이름을 붙인다.\r\r\n
+body	O	d6ab0451	## 수칙\n6. 설계\n
+body	O	dab12ac9	- 세부 클래스는 멤버를 소유하지 않는다. 멤버는 원래 클래스에 그대로 있고, 세부 클래스는 그 reference 만 든다.\r\r\n- 원래 클래스는 세부 클래스를 만들어 돌려주는 짧은 method (`sink()`, `flow()`) 를 둔다. 호출자는 그 세부 클래스의 method 를 부른다.\r\r\n- 세부 클래스는 쓰는 쪽, 읽는 쪽처럼 한 맥락으로 나눈다. public 메서드 개수 한계는 세부 클래스마다 센다.\r\r\n- 세부 클래스는 원래 클래스보다 오래 살지 않는다. 멤버 변수로 저장하지 않고, 부른 자리에서 쓰고 버린다.\r\r\n\r\r\n```cpp\r\r\ntemplate <typename T>\r\r\nclass Sink                                         // 쓰는 쪽\r\r\n{\r\r\npublic:\r\r\n    Sink(T& value, Subscribers<T>& subscribers);\r\r\n    void update(const T& value);                   // _value 를 바꾸고 구독자에게 알린다\r\r\nprivate:\r\r\n    T&              _value;\r\r\n    Subscribers<T>& _subscribers;\r\r\n};\r\r\n\r\r\ntemplate <typename T>\r\r\nclass Flow                                         // 읽는 쪽\r\r\n{\r\r\npublic:\r\r\n    explicit Flow(Subscribers<T>& subscribers);\r\r\n    void subscribe(void (*callback)(void* user_context, const T& value), void* user_context);\r\r\nprivate:\r\r\n    Subscribers<T>& _subscribers;\r\r\n};\r\r\n\r\r\ntemplate <typename T>\r\r\nclass MutableFlow                                  // 멤버를 소유한다\r\r\n{\r\r\npublic:\r\r\n    Sink<T> sink() { return Sink<T>(_value, _subscribers); }\r\r\n    Flow<T> flow() { return Flow<T>(_subscribers); }\r\r\nprivate:\r\r\n    T              _value;\r\r\n    Subscribers<T> _subscribers;\r\r\n};\r\r\n```\r\r\n
+body	O	e28207fa	```\ncore      ← infra, domain, datalayer, context, presentation\ndomain    ← presentation, datalayer, context\ndatalayer ← domain/usecases, context\ninfra     ← datalayer, context, presentation (Socket, CLI 같은 presentation 용 third party 만)\ncontext   ← C interface 어댑터 (src/)\ni18n      ← presentation\n모두      ← di\n```\n\n- `context/` 는 implementation 안의 어느 폴더도 들지 않는다. `context/` 를 쓰는 것은 C interface 어댑터뿐이다.\n- 같은 층위의 두 흐름이 함께 필요하거나, 흐름이 infra 를 직접 들어야 하면 `context/` 가 조합하고 흐름에는 결과를 인자로 넘긴다.\n
+body	O	e4c983ec	## 수칙\n3.6 16 바이트 이하의 trivially copyable 타입은 값으로, 나머지는 `const&` 로 넘긴다.\n
+body	O	f3129577	- 매 루프 읽는 hot 필드와 가끔 읽는 cold 필드(이름, 설명)는 같은 index 를 쓰는 두 배열로 나눈다.\n\n```cpp\nstruct SessionState { uint32_t last_seen_milliseconds; uint16_t flags; };  // 매 틱 스캔\nstruct SessionInfo  { FixedString<64> user; FixedString<32> device; };    // 조회 시만\n\nstruct SessionRepository\n{\n    LazyPool<SessionState> states;   // Handle.index 공유\n    std::vector<SessionInfo> infos;  // 초기화 때 states.capacity() 로 확보\n};\n```\n
+body	O	f7bcf8ce	```\n-Wall -Wextra -Werror -Wconversion -Wsign-compare -Wshadow -Wswitch\n-fno-exceptions -fno-rtti -fstack-protector-strong -D_FORTIFY_SOURCE=2\n```\n\n- 테스트 빌드는 ASan + UBSan 을 켠다. `parse*` 함수는 fuzz 테스트를 붙인다.\n
+body	O	f88bb73d	- 개수가 컴파일 타임에 정해지면 `Pool<Value, N>`, 설정값이면 `LazyPool<Value>` (생성자에서 확보, 이후 크기 불변).\n- Handle 은 `{index, generation}`. generation 불일치는 `INVALID_HANDLE`. 슬롯 재사용 시 generation 을 올린다.\n- generation·free list 는 값 배열과 분리해 둔다. 값 배열만 연속으로 스캔할 수 있다.\n\n```cpp\ntemplate<typename Value>\nclass LazyPool\n{\npublic:\n    explicit LazyPool(size_t capacity);\n\n    Handle acquire();                              // 가득 차면 invalid Handle\n    Result<Value&, ErrorCode> get(Handle handle);  // generation 검증\n    void release(Handle handle);\n    size_t capacity() const;\n\nprivate:\n    std::vector<Value>    _values;       // 초기화 후 크기 불변\n    std::vector<uint32_t> _generations;  // _values 와 같은 index\n    std::vector<uint32_t> _free_indices;\n    size_t                _free_count;\n};\n```\n
+body	O	f9f77177	## 수칙\n6.8 외부와 주고받는 문자열은 UTF-8 이다. 다른 인코딩은 presentation 의 변환기에서 UTF-8 로 바꾼다.\n
